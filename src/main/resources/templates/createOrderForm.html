@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/topAppBar.css">
+    <link rel="stylesheet" href="./public/css/category.css">
+    <link rel="stylesheet" href="./public/css/enterprise.css">
+    <link rel="stylesheet" href="./public/css/semiFooter.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
+    <link rel="stylesheet" href="./public/css/leftAside.css">
+    <link rel="stylesheet" href="./public/css/rightAside.css">
+
+    <link rel="stylesheet" href="./public/css/basketHead.css">
+    <link rel="stylesheet" href="./public/css/basketMain.css">
+
+    <link rel="stylesheet" href="./public/css/orderInfo.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="header">
+            <div class="header__columns">
+                <div class="header__columns__column">
+                    <a href="#">
+                        <img src="./public/images/Group 103.png" alt="star" class="bookmarkIcon" width="15px" height="15px">
+                        즐겨찾기
+                    </a>
+                </div>
+                <div class="header__columns__column"><a href="./login.html">로그인</a></div>
+                <div class="header__columns__column"><a href="./membership.html">회원가입</a></div>
+                <div class="header__columns__column"><a href="./orderDelivery.html">주문조회배송</a></div>
+                <div class="header__columns__column"><a href="./shopping__basket.html">장바구니</a></div>
+                <div class="header__columns__column"><a href="./wishList.html">마이페이지</a></div>
+                <div class="header__columns__column"><a href="./clientCenter.html">고객센터</a></div>
+            </div>
+        </header>
+
+        <section class="topAppBar">
+            <div class="topAppBar__columns logo">
+                <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="소셜임팩트" class="subLogo">
+                <a href="./index.html"><img src="./public/images/상생Mall.png" alt="상생몰" class="mainLogo"></a>
+            </div>
+            <div class="topAppBar__columns serch">
+                <div class="topAppBar__columns__column">
+                    <select name="serch" id="">
+                        <option value="" selected="selected">전체선택</option>
+                    </select>
+                </div>
+                <div class="topAppBar__columns__column">
+                    <input type="text">
+                </div>
+                <div class="topAppBar__columns__column iconBox">
+                    <a href="#"><img src="./public/images/baseline-search-24px.png" alt="검색" class="serchIcon"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoryBar">
+            <div class="categoryBar__columns">
+                <div class="categoryBar__columns__menu">
+                    <img src="./public/images/ic_menu_24px_2.png" alt="menu">
+                    <p>카테고리</p>
+                </div>
+                <div class="dropdown">
+                    <a href="./serch__health.html">건강/뷰티</a>
+                    <a href="./serch__food.html">식품</a>
+                    <a href="./serch__livingItem.html">생활용품</a>
+                    <a href="./serch__officeItem.html">사무용품</a>
+                    <a href="./serch__culture.html">교육/문화</a>
+                    <a href="./serch__service.html">용역</a>
+                    <a href="./serch__rental.html">렌탈</a>
+                    <a href="./serch__safetyItem.html">안전용품</a>
+                    <a href="./serch__car.html">자동차</a>
+                    <a href="./serch__etc.html">기타</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="basketHead">
+            <div class="basketHead__columns">
+                <div class="basketHead__columns__column">
+                    <img src="./public/images/Group 59.png" alt="" class="basketHead__headIcon">
+                    <p class="basketHead__headText">주문/결제</p>
+                </div>
+            </div>
+            <div class="basketHead__columns">
+                <div class="basketHead__columns__column">
+                    <img src="./public/images/Group 53__firstNumber.svg" alt="" class="basketHead__chapterIcon">
+                    <p class="basketHead__text">장바구니</p>
+                    <img src="./public/images/icon_right_solid_shopingBasket.svg" alt="">
+                    <img src="./public/images/Group 54__secNumber.svg" alt="" class="basketHead__chapterIcon">
+
+                    <p class="basketHead__text">주문/결제</p>
+                    <img src="./public/images/icon_right_solid_shopingBasket.svg" alt="">
+                    <img src="./public/images/Group 54_2.png" alt="" class="basketHead__chapterIcon">
+                    <p class="basketHead__text">주문완료</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="basketMain">
+            <div class="basketMain__columns">
+                <div class="basketMain__columns__column info">
+                    <input type="checkbox" class="basketMain__inputBox">
+                    <p class="basketMain__infoText info">상품명/옵션정보</p>
+                    <p class="basketMain__infoText price">판매가</p>
+                    <p class="basketMain__infoText amount">수량</p>
+                    <p class="basketMain__infoText factory">생산시설</p>
+                    <p class="basketMain__infoText purchase">구매금액</p>
+                </div>
+            </div>
+            <div class="basketMain__columns">
+                <div class="basketMain__columns__column product">
+                    <input type="checkbox" class="basketMain__inputBox product">
+                    <img src="./public/images/j-luis-esquivel-ArGvQkA7iOw-unsplash.jpg" alt="" class="basketMain__productImg">
+                    <p class="basketMain__productText info">상품명/옵션정보</p>
+                    <p class="basketMain__productText price">00,000원</p>
+                        <div class="basketMain__product__inputBox">
+                            <input type="text" value="1" class="product__number__input">
+                            <div class="basketMain__product__changeBtn">
+                                <button>-</button>
+                                <button>+</button>
+                            </div>
+                        </div>
+                    <p class="basketMain__productText factory">생산시설</p>
+                    <p class="basketMain__productText purchase">00,000원</p>
+                </div>
+            </div>
+
+            
+
+            <div class="basketMain__columns bottom">
+                <div class="basketMain__columns__productSum">
+                    <p class="productSum__text">상품 합계</p>
+                    <p class="productSum__text">0,000,000원</p>
+                </div>
+            </div>
+            
+            <div class="basketMain__columns bottom">
+                <div class="basketMain__columns__productSum">
+                    <p class="productSum__text">배송비</p>
+                    <p class="productSum__text">0,000,000원</p>
+                </div>
+            </div>
+
+            <div class="basketMain__columns bottom">
+                <div class="basketMain__columns__productSum">
+                    <p class="productSum__text">합계</p>
+                    <p class="productSum__text">0,000,000원</p>
+                </div>
+            </div>
+
+            <div class="basketMain__columns delete">
+                <div class="basketMain__columns__delete">
+                    <p class="delete__text">선택 상품</p>
+                    <button class="delete__btn">삭제하기</button>
+                </div>
+            </div>
+
+        </section>
+
+        <p class="orderInfo__headText">주문자 정보</p>
+        
+        <section class="orderInfo">
+            <div class="orderInfo__columns">
+                <table class="orderInfo__table">
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">이름</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__name">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">휴대폰번호</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">전화번호</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__tellNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__tellNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__tellNumber">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">이메일</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__email">
+                            <span class="orderInfo__hyphen">@</span>
+                            <input type="text" class="orderInfo__input__email">
+                            <select class="orderInfo__select__email">
+                                <option value="" selected>직접입력</option>
+                                <option value="naver">naver.com</option>
+                                <option value="naver">google.com</option>
+                                <option value="naver">daum.net</option>
+                            </select>
+                            <p class="orderInfo__email__notice">
+                                *입력하신 메일로 주문 및 배송 확인 메일이 발송됩니다
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <div class="orderInfo__headerBox">
+            <p class="orderInfo__headText">수령자 및 배송지 정보</p>
+            <p class="orderInfo__headText__notice">주문하실 고객님과 받으실 고객님이 같습니까?</p>
+            <input type="radio" class="orderInfo__headText__radio" name="same">
+            <p class="orderInfo__radio__text">예</p>
+            <input type="radio" class="orderInfo__headText__radio" name="same">
+            <p class="orderInfo__radio__text">아니오</p>
+                
+        </div>
+
+        <section class="orderInfo">
+            <div class="orderInfo__columns">
+                <table class="orderInfo__table">
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">이름</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__name">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">휴대폰번호</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__phoneNumber">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">전화번호</td>
+                        <td class="orderInfo__table__row">
+                            <input type="text" class="orderInfo__input__tellNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__tellNumber">
+                            <span class="orderInfo__hyphen">-</span>
+                            <input type="text" class="orderInfo__input__tellNumber">
+                        </td>
+                    </tr>
+                    <tr class="orderInfo__table__line__address">
+                        <td rowspan="3" class="orderInfo__table__row">주소</td>
+                        <td class="orderInfo__table__row__address top">
+                            <input type="text" class="orderInfo__address__input zipCode" value="">
+                            <button type="button" class="orderInfo__zipCode__button" onclick="addressFunc()">
+                                우편번호찾기
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr class="orderInfo__table__line__address">
+                        <td class="orderInfo__table__row__address">
+                            <input type="text" class="orderInfo__address__input address" value="">
+                        </td>
+                    </tr>
+
+                    <tr class="orderInfo__table__line__address">
+                        <td class="orderInfo__table__row__address bottom">
+                            <input type="text" class="orderInfo__address__input detailAddress" value="">
+                            <span class="orderInfo__address__input__notice">*상세주소를 입력해주세요</span>
+                        </td>
+                    </tr>
+
+                    <tr class="orderInfo__table__line">
+                        <td class="orderInfo__table__row">배송메모</td>
+                        <td class="orderInfo__table__row">
+                            <textarea  cols="30" rows="10" class="orderInfo__memo__text"></textarea>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+        <p class="orderInfo__notice__text">
+            * <span>서울지역 이 외의 배송지</span>에 대한 주문은 <span>배송비가 추가</span>로 청구됩니다. 각 지역의 판매시설을 이용하시면 배송비 부담을 줄일 수 있습니다.
+        </p>
+
+        <p class="orderInfo__headText">결제금액안내</p>
+
+        <section class="orderInfo__payment">
+            <table class="orderInfo__payment__table">
+                <tr class="orderInfo__payment__table__line">
+                    <td class="orderInfo__payment__table__row">결제금액</td>
+                    <td class="orderInfo__payment__table__row">6,500(배송비 포함)</td>
+                </tr>
+                <tr class="orderInfo__payment__table__line">
+                    <td class="orderInfo__payment__table__row">결제방법</td>
+                    <td class="orderInfo__payment__table__row">
+                    <input type="radio" class="orderInfo__payment__radio" name="purchaseType"><span class="orderInfo__payment__text">신용카드</span>
+                    <input type="radio" class="orderInfo__payment__radio" name="purchaseType"><span class="orderInfo__payment__text">실시간계좌이체</span>
+                    <input type="radio" class="orderInfo__payment__radio" name="purchaseType"><span class="orderInfo__payment__text">무통장입금(계산서발행)</span>
+                    <input type="radio" class="orderInfo__payment__radio" name="purchaseType"><span class="orderInfo__payment__text">방문 카드결제</span>
+                    <input type="radio" class="orderInfo__payment__radio" name="purchaseType"><span class="orderInfo__payment__text">나라빌청구(정부기관용)</span>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <div class="orderInfo__button__box">
+            <button class="orderInfo__btm__button nextStep">다음단계</button>
+            <button class="orderInfo__btm__button keepShopping ">계속쇼핑</button>
+        </div>
+
+    </div>
+
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="./public/js/address.js"></script>
+</body>
+</html>

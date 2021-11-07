@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+    <link rel="stylesheet" href="./public/css/sellerPageMain.css">
+
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <main class="sellerPageMain">
+            <div class="sellerPageMain__columns">
+                <div class="sellerPageMain__columns__column">
+                    <div class="sellerPageMain__head">
+                        <p class="sellerPageMain__head__text">회원에게 팔기</p>
+                        <a href="#" class="sellerPageMain__moreAnchor">
+                            <img src="./public/images/plus-solid.png" alt="">
+                            더보기
+                        </a>
+                    </div>
+
+                    <table class="sellerPageMain__table">
+
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">등록상품</td>
+                            <td class="sellerPageMain__table__row">00 개</td>
+                        </tr>
+                        
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">주문 확인 요청</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+                        
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">발송 요청</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+                        
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">구매 & 구매확정 전</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+                        
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">구매확정 & 정산대기</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">정산완료 (최근 3개월)</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+
+                    </table>
+                    
+                    <button type="button" class="sellerPageMain__productAdd__button">상품 추가</button>
+
+                </div>
+
+
+                <div class="sellerPageMain__columns__column">
+                    <div class="sellerPageMain__head">
+                        <p class="sellerPageMain__head__text">게시판 현황 <span>(최근 1개월)</span></p>
+                        <a href="#" class="sellerPageMain__moreAnchor">
+                            <img src="./public/images/plus-solid.png" alt="">
+                            더보기
+                        </a>
+                    </div>
+
+                    <table class="sellerPageMain__table">
+
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">묻고 답하기</td>
+                            <td class="sellerPageMain__table__row">총 00건,<span>미답변 00건</span></td>
+                        </tr>
+                        
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">판매평가 코멘트</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">내 공지사항</td>
+                            <td class="sellerPageMain__table__row">00 건</td>
+                        </tr>
+                        
+                        
+
+                    </table>
+
+                </div>
+
+
+                <div class="sellerPageMain__columns__column">
+                    <div class="sellerPageMain__head">
+                        <p class="sellerPageMain__head__text">반품 접수 내역 <span>(최근 1개월)</span></p>
+                        <a href="#" class="sellerPageMain__moreAnchor">
+                            <img src="./public/images/plus-solid.png" alt="">
+                            더보기
+                        </a>
+                    </div>
+
+                    <table class="sellerPageMain__table">
+
+                        <tr class="sellerPageMain__table__line">
+                            <td class="sellerPageMain__table__row">반품 내역</td>
+                            <td class="sellerPageMain__table__row">총 00건, <span>신규 접수 00건</span></td>
+                        </tr>
+                        
+                    </table>
+
+                </div>
+
+        </main>
+        
+    </div>
+</body>
+</html>

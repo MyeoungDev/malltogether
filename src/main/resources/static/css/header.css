@@ -1,0 +1,43 @@
+#container{
+    height: 100vh;
+    font-family: "NotoSansKR";
+}
+
+/* layout */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 138px;
+    height: 33px;
+    background-color: #f5f5f5;
+}
+.header__columns{
+    display: flex;
+}
+.header__columns__column{
+    display: flex;
+    align-items: center;
+}
+
+
+/* style */
+
+.header__columns__column{
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.header__columns__column a{
+    text-decoration: none;
+    color: #767676;
+}
+
+.header__columns__column .bookmarkIcon{
+    margin-right: 4px;
+}
+
+.header__columns :first-child{
+    line-height: 33px;
+    vertical-align: middle;
+}

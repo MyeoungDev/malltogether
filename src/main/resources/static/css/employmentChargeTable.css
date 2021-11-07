@@ -1,0 +1,102 @@
+/* layout */
+.employmentChargeTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.employmentChargeTable__columns{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.employmentChargeTable__table__line{
+    border-bottom: solid 1px #c8c6c7;
+}
+
+.employmentChargeTable__table__row{
+    vertical-align: middle;
+}
+
+.employmentChargeTable__table__row:first-child{
+    border-right: solid 1px #c8c6c7;
+    background-color: #fafafa;
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    width: 238px;
+}
+
+.employmentChargeTable__table__row:nth-child(2){
+    padding-left: 16px;
+    width: 765px;
+}
+
+.employmentChargeTable__table__row.division{
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.employmentChargeTable__table__row.workerNumber__box, .employmentChargeTable__table__row.TaxRate__box{
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+/* style */
+
+.privateEnterprise, .publicInstitutions, .nationalOrganization{
+    width: 72px;
+    height: 22px;
+    font-size: 12px;
+    font-family: 'NotoSansKR-Light';
+    line-height: 22px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tabMenuActive{
+    background-color: #03a9ff;
+    color: white;
+}   
+
+.corporateTaxRate__inputBox, .workerNumber__inputBox,
+.workerNumber__inputBox__severelyDisabled, .workerNumber__inputBox__mildDisability{
+    width: 154px;
+    height: 25px;
+    border: solid 1px #c8c6c7; 
+}
+
+.workerNumber__numberText{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.workerNumber__plus__button{
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    background-color: #ffffff;
+    font-size: 10px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    margin-right: 5px;
+    outline: none;
+}
+
+.worker__severelyDisabled__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.worker__severelyDisabled__text span{
+    color: #03a9ff;
+}
+
+.employmentChargeTable__table__row span{
+    color: #03a9ff;
+}

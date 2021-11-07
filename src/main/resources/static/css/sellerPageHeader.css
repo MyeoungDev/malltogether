@@ -1,0 +1,35 @@
+/* layout */
+
+.sellerPageHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1004px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* style */
+
+.sellerPageHeader__mainAnchor{
+    font-size: 16px;
+    font-family: 'NotoSansKR-Bold';
+    color: #27303f;
+    text-decoration: none;
+}
+
+.sellerPageHeader__mainAnchor span{
+    color: #03a9ff;
+}
+
+.sellerPageHeader__anchor{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+    text-decoration: none;
+}
+
+.sellerPageHeader__anchor:first-child{
+    margin-right: 20px;
+}

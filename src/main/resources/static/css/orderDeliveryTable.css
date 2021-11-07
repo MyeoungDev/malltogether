@@ -1,0 +1,81 @@
+/* layout */
+
+.orderDeliveryTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.orderDeliveryTable__columns{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.orderDeliveryTable__table__header.number{
+    width: 56px;
+}
+
+.orderDeliveryTable__table__header.date{
+    width: 84px;
+}
+
+.orderDeliveryTable__table__header.name{
+    width: 84px;
+}
+
+.orderDeliveryTable__table__header.address{
+    width: 454px;
+}
+
+.orderDeliveryTable__table__header.payment{
+    width: 102px;
+}
+
+.orderDeliveryTable__table__header.sum{
+    width: 114px;
+}
+
+.orderDeliveryTable__table__header.state{
+    width: 104px;
+}
+
+/* style */
+
+.orderDeliveryTable__table__header{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border-bottom: solid 1px #bababa;
+    border-right: solid 1px #bababa;
+}
+
+.orderDeliveryTable__table__header:last-child{
+    border-right: none;
+}
+
+.orderDeliveryTable__table__line{
+    border-bottom: solid 1px #bababa;
+}
+
+.orderDeliveryTable__table__row{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border-right: solid 1px #bababa;
+}
+
+.orderDeliveryTable__table__row:last-child{
+    border-right: none;
+}
+
+.orderDeliveryTable__table__row.address{
+    text-align: left;
+    padding-left: 15px;
+}

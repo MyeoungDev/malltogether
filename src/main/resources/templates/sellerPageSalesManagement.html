@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageCategoryBar.css">
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+
+    <link rel="stylesheet" href="./public/css/orderInquiry.css">
+    <link rel="stylesheet" href="./public/css/saleManagementTable.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">판매 관리</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="myPageCategoryBar">
+            <div class="myPageCategoryBar__columns">
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="#" class="myPageCategoryBar__text">주문확인 요청(0건)</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="#" class="myPageCategoryBar__text">발송 요청(0건)</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="#" class="myPageCategoryBar__text">배송&구매확정전 (0건)</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="#" class="myPageCategoryBar__text">구매확정&정산대기 (0건)</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="#" class="myPageCategoryBar__text">정산완료 (0건)</a>
+                </div>
+            </div>          
+        </section>
+
+        <p class="orderInquiry__headText">주문 조회</p>
+
+        <section class="orderInquiry">
+            <div class="orderInquiry__columns">
+                <div class="orderInquiry__columns__column">
+                    <p>주문 조회</p>
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="radio" checked name="orderInquiry__name" class="orderInquiry__radio">주문인
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="radio" name="orderInquiry__name" class="orderInquiry__radio">수령인
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="radio" name="orderInquiry__name" class="orderInquiry__radio">주문번호
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="radio" name="orderInquiry__name" class="orderInquiry__radio">상품명
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="radio" name="orderInquiry__name" class="orderInquiry__radio">자체상품코드
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <input type="text"  class="orderInquiry__inputBox">
+                </div>
+                <div class="orderInquiry__columns__column">
+                    <button type="button" class="orderInquiry__inquiry__button">조회하기</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="saleManagement__explainText">
+            <div class="saleManagement__explainText__columns">
+                <p>· 주문번호 클릭 : 주문상세 보기</p> 
+                <p>· 주문인 및 수령인 클릭 : 주소 및 연락처 보기</p>
+            </div>
+        </section>
+
+        <section class="saleManagement__topTable__button">
+            <button type="button" class="table__top__button">판매불가 통보</button>
+            <button type="button" class="table__top__button">엑셀 다운로드</button>
+            <button type="button" class="table__top__button">프린트</button>
+        </section>
+
+        <section class="saleManagementTable">
+            <div class="saleManagementTable__columns">
+                
+                <table class="saleManagementTable__table">
+
+                    <tr class="saleManagementTable__table__line table__header">
+                        <td rowspan="2" class="saleManagementTable__table__row">
+                            <input type="checkbox" class="table__header__checkBox">
+                        </td>
+                        <td rowspan="2" class="saleManagementTable__table__row">상태</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">No</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">주문번호</td>
+                        <td class="saleManagementTable__table__row space5">상품명</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">업체명</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">수량</td>
+                        <td class="saleManagementTable__table__row space8">주문인</td>
+                        <td class="saleManagementTable__table__row space9">판매가</td>
+                        <td class="saleManagementTable__table__row space10">주문일</td>
+                        <td rowspan="2" class="saleManagementTable__table__row"><p class="delivery__work">출고작업시작</p></td>
+                    </tr>
+                    <tr class="saleManagementTable__table__line table__header">
+                        <td class="saleManagementTable__table__row space5">자체 상품코드, 등록일</td>
+                        <td class="saleManagementTable__table__row space8">수령인</td>
+                        <td class="saleManagementTable__table__row space9"><p class="document__dvidence">증빙서류신청현황</p></td>
+                        <td class="saleManagementTable__table__row space10">발송기한</td>
+                    </tr>
+                    
+                    <tr class="saleManagementTable__table__line">
+                        <td rowspan="2" class="saleManagementTable__table__row">
+                            <input type="checkbox" class="table__checkBox">
+                        </td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">1</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">000-000000</td>
+                        <td class="saleManagementTable__table__row space5">상품명 입력</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">상생몰</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">00</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">00,000 원</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                    </tr>
+                    <tr class="saleManagementTable__table__line">
+                        <td class="saleManagementTable__table__row space5">0000-000000, 2020-10-10</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">없음</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                    </tr>
+
+                    <tr class="saleManagementTable__table__line">
+                        <td rowspan="2" class="saleManagementTable__table__row">
+                            <input type="checkbox" class="table__checkBox">
+                        </td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">2</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">000-000000</td>
+                        <td class="saleManagementTable__table__row space5">상품명 입력</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">상생몰</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">00</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">00,000 원</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                    </tr>
+                    <tr class="saleManagementTable__table__line">
+                        <td class="saleManagementTable__table__row space5">0000-000000, 2020-10-10</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">없음</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                    </tr>
+
+                    <tr class="saleManagementTable__table__line">
+                        <td rowspan="2" class="saleManagementTable__table__row">
+                            <input type="checkbox" class="table__checkBox">
+                        </td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">3</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">000-000000</td>
+                        <td class="saleManagementTable__table__row space5">상품명 입력</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">상생몰</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">00</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">00,000 원</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                    </tr>
+                    <tr class="saleManagementTable__table__line">
+                        <td class="saleManagementTable__table__row space5">0000-000000, 2020-10-10</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">없음</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                    </tr>
+
+                    <tr class="saleManagementTable__table__line">
+                        <td rowspan="2" class="saleManagementTable__table__row">
+                            <input type="checkbox" class="table__checkBox">
+                        </td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">4</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">000-000000</td>
+                        <td class="saleManagementTable__table__row space5">상품명 입력</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">상생몰</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">00</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">00,000 원</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                        <td rowspan="2" class="saleManagementTable__table__row">반품</td>
+                    </tr>
+                    <tr class="saleManagementTable__table__line">
+                        <td class="saleManagementTable__table__row space5">0000-000000, 2020-10-10</td>
+                        <td class="saleManagementTable__table__row space8">김상생</td>
+                        <td class="saleManagementTable__table__row space9">없음</td>
+                        <td class="saleManagementTable__table__row space10">2020-10-10</td>
+                    </tr>
+                    
+                
+                </table>
+            </div>
+        </section>
+
+        <section class="saleManagement__topTable__button">
+            <button type="button" class="table__top__button">판매불가 통보</button>
+            <button type="button" class="table__top__button">엑셀 다운로드</button>
+            <button type="button" class="table__top__button">프린트</button>
+        </section>
+
+
+
+    </div>
+    
+</body>
+</html>

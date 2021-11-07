@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+
+    <link rel="stylesheet" href="./public/css/sellerPageReturn__banner.css">
+    <link rel="stylesheet" href="./public/css/sellerPageReturn__middleBar.css">
+    <link rel="stylesheet" href="./public/css/sellerPageReturnTable.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">주문 조회</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sellerPageReturn__banner">
+            <div class="sellerPageReturn__banner__columns">
+                <p class="sellerPageReturn__banner__text">총 <span>0</span>건의 주문상품이 있습니다.</p>
+            </div>
+        </section>
+        
+        <section class="sellerPageReturn__middleBar">
+            <div class="sellerPageReturn__middleBar__columns">
+                <p class="sellerPageReturn__middleBar__text">· 주문번호 클릭 : 주문상세 보기</p>
+                <p class="sellerPageReturn__middleBar__text">· 주문인 및 수령인 클릭 : 주소 및 연락처 보기</p>
+            </div>
+            
+            <div class="sellerPageReturn__middleBar__columns">
+                <button class="sellerPageReturn__middleBar__button">엑셀 다운로드</button>
+                <button class="sellerPageReturn__middleBar__button">프린트</button>
+            </div>
+
+        </section>
+
+        <section class="sellerPageReturnTable">
+            <div class="sellerPageReturnTable__columns">
+               
+                <table class="sellerPageReturnTable__table">
+
+                    <tr class="sellerPageReturnTable__table__line table__haeder table__layout">
+
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <input type="checkbox" class="sellerPageReturnTable__header__checkBox">
+                        </td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">상태</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">주문번호</td>
+                        <td class="sellerPageReturnTable__table__row">상품명</td>
+                        <td class="sellerPageReturnTable__table__row">주문수량</td>
+                        <td class="sellerPageReturnTable__table__row">주문인</td>
+                        <td class="sellerPageReturnTable__table__row">주문일</td>
+                        <td class="sellerPageReturnTable__table__row">발송일</td>
+                        <td class="sellerPageReturnTable__table__row">판매가</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <p>주문</p>
+                            <p>상세보기/</p>
+                            <p>주문처리</p>
+                        </td>
+
+                    </tr>
+
+                    <tr class="sellerPageReturnTable__table__line table__haeder">
+
+                        <td class="sellerPageReturnTable__table__row">반품사유</td>
+                        <td class="sellerPageReturnTable__table__row">취소수량</td>
+                        <td class="sellerPageReturnTable__table__row">수령인</td>
+                        <td class="sellerPageReturnTable__table__row">입금일</td>
+                        <td class="sellerPageReturnTable__table__row">비고</td>
+                        <td class="sellerPageReturnTable__table__row">
+                            <p>증빙서류</p>
+                            <p>신청현황</p>
+                        </td>
+
+                    </tr>
+               
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <input type="checkbox" class="sellerPageReturnTable__checkBox">
+                        </td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">000-000000</td>
+                        <td class="sellerPageReturnTable__table__row">상품명 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">00,000원</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+
+                    </tr>
+
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td class="sellerPageReturnTable__table__row">사유 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">없음</td>
+                        <td class="sellerPageReturnTable__table__row">영수증</td>
+
+                    </tr>
+               
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <input type="checkbox" class="sellerPageReturnTable__checkBox">
+                        </td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">000-000000</td>
+                        <td class="sellerPageReturnTable__table__row">상품명 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">00,000원</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+
+                    </tr>
+
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td class="sellerPageReturnTable__table__row">사유 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">없음</td>
+                        <td class="sellerPageReturnTable__table__row">영수증</td>
+
+                    </tr>
+               
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <input type="checkbox" class="sellerPageReturnTable__checkBox">
+                        </td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">000-000000</td>
+                        <td class="sellerPageReturnTable__table__row">상품명 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">00,000원</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+
+                    </tr>
+
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td class="sellerPageReturnTable__table__row">사유 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">없음</td>
+                        <td class="sellerPageReturnTable__table__row">영수증</td>
+
+                    </tr>
+               
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">
+                            <input type="checkbox" class="sellerPageReturnTable__checkBox">
+                        </td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">000-000000</td>
+                        <td class="sellerPageReturnTable__table__row">상품명 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">00,000원</td>
+                        <td rowspan="2" class="sellerPageReturnTable__table__row">반품</td>
+
+                    </tr>
+
+                    <tr class="sellerPageReturnTable__table__line">
+
+                        <td class="sellerPageReturnTable__table__row">사유 입력</td>
+                        <td class="sellerPageReturnTable__table__row">00</td>
+                        <td class="sellerPageReturnTable__table__row">김상생</td>
+                        <td class="sellerPageReturnTable__table__row">2020-10-10</td>
+                        <td class="sellerPageReturnTable__table__row">없음</td>
+                        <td class="sellerPageReturnTable__table__row">영수증</td>
+
+                    </tr>
+               
+                </table>
+
+
+            </div>
+        </section>
+
+        <div class="sellerPageReturn__btmButton">
+            <button type="button" class="sellerPageReturn__btmButton__button">엑셀 다운로드</button>
+            <button type="button" class="sellerPageReturn__btmButton__button">프린트</button>
+        </div>
+
+    </div>    
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* layout */
+
+.sellerPageProductInquiryTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 94px;
+}
+
+.sellerPageProductInquiryTable__columns{
+    width: 1004px;
+}
+
+.sellerPageProductInquiryTable__table{
+    width: 1004px;
+    border-top: solid 2px #039aff;
+}
+
+.sellerPageProductInquiryTable__table__header{
+    background-color: #f5f5f5;
+    height: 39px;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #27303f;
+    border-right: solid 1px #bababa;
+    border-bottom: solid 1px #bababa;
+}
+
+.sellerPageProductInquiryTable__table__header:last-child{
+    border-right: none;
+}
+
+.sellerPageProductInquiryTable__table__line{
+    height: 39px;
+    border-bottom: solid 1px #bababa;
+}
+
+.sellerPageProductInquiryTable__table__row{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    border-right: solid 1px #bababa;
+}
+
+.sellerPageProductInquiryTable__table__row:last-child{
+    border-right: none;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(1){
+    width: 33px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(2){
+    width: 80px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(3){
+    width: 224px;
+}
+
+.sellerPageProductInquiryTable__table__row:nth-child(3){
+    text-align: left;
+    padding-left: 15px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(4){
+    width: 100px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(5){
+    width: 70px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(6){
+    width: 80px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(7){
+    width: 60px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(8){
+    width: 110px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(9){
+    width: 110px;
+}
+
+.sellerPageProductInquiryTable__table__header:nth-child(10){
+    width: 108px;
+}
+
+/* style */
+
+.table__header__checkBox, .table__line__checkBox{
+    width: 13px;
+    height: 13px;
+}
+
+.table__modify__button, .table__web__button{
+    font-size: 10px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    background-color: #ffffff;
+    border: solid 1px #c8c6c7;
+    outline: none;
+}
+

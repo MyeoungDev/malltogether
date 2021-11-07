@@ -1,0 +1,79 @@
+/* layout */
+
+.wishListTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.wishListTable__columns{
+    width: 1004px;
+}
+
+.wishListTable__table__header{
+    height: 39px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    background-color: #f5f5f5;
+    line-height: 39px;
+    vertical-align: middle;
+    border-top: solid 1px #bababa;
+    border-bottom: solid 1px #bababa;
+}
+
+.wishListTable__table__line{
+    height: 90px;
+}
+
+.wishListTable__table__header.checkbox{
+    width: 40px;
+}
+
+.wishListTable__table__header.img{
+    width: 182px;
+}
+
+.wishListTable__table__header.productName{
+    width: 622px;
+}
+
+.wishListTable__table__header.sellingPrice{
+    width: 160px;
+}
+
+.wishListTable__table__row.productName{
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* style */
+
+.table__header__checkBox{
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+    border: solid 1px #707070;
+}
+
+.table__line__checkBox{
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+    border: solid 1px #707070;
+}
+
+.wishListTable__table__row{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    border-bottom: solid 1px #bababa;
+    vertical-align: middle;
+}
+
+.table__row__img{
+    width: 70px;
+    height: 70px;
+
+}

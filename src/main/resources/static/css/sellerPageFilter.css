@@ -1,0 +1,57 @@
+/* layout */
+
+.sellerPageFilter{
+    width: 1004px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px #bababa;
+    border-bottom: solid 1px #bababa;
+    margin-top: 30px;
+}
+
+.sellerPageFilter__columns{
+    display: flex;
+    align-items: center;
+}
+
+.sellerPageFilter__columns__column{
+    display: flex;
+    align-items: center;
+    height: 12px;
+    border-right: solid 1px #707070;
+    padding-right: 10px;
+}
+
+.sellerPageFilter__columns__column:last-child{
+    border: none;
+    padding-right: 0;
+}
+
+.sellerPageFilter__columns__column:first-child p{
+    margin-left: 0;
+}
+
+
+/* style */
+
+.sellerPageFilter__filter__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    margin-left: 10px;
+}
+
+.sellerPageFilter__selectBar{
+    width: 85px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    outline: none;
+}
+

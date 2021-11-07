@@ -1,0 +1,71 @@
+/* layout */
+.leftAside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    border: solid 1px #edebe9;
+    position: fixed;
+    z-index: 1;
+    left: 28px;
+    top: 570px;
+    background-color: #ffffff;
+}
+.leftAside__columns{
+    width: 90px;
+    height: 74px;
+    border-bottom: solid 1px #edebe9;
+
+}
+
+/* style */
+
+.leftAside__columns__column a{
+    text-decoration: none;
+}
+
+.leftAside__text p{
+    color: #707070;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100% ;
+}
+
+.leftAside__icon img{
+    width: 36px;
+    height: 36px;
+    margin: 10px 27px 2px 27px;
+}
+
+/* shopping basket position */
+
+.leftAside.shopping__basket{
+    top: 179px;
+}
+
+/* serch html section position */
+
+.leftAside.serchSection{
+    top: 179px;
+}
+
+/* clientCenter section position */
+
+.leftAside.clientCenter{
+    top: 179px;
+}
+
+/* membership section position */
+
+.leftAside.membershipSection{
+    top: 179px;
+}
+
+/* login section position */
+
+.leftAside.loginSection{
+    top: 179px;
+}

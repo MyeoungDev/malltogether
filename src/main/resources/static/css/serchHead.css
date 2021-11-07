@@ -1,0 +1,20 @@
+/* layout */
+
+.serchHead{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.serchHead__columns{
+    width: 1004px;
+    padding-bottom: 13px;
+    border-bottom: solid 4px #27303f;
+}
+/* style */
+
+.serchHead__text{
+    font-size: 32px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+}

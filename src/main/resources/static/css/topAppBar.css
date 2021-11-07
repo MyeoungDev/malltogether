@@ -1,0 +1,79 @@
+/* layout */
+.topAppBar{
+    margin-top: 31px;
+    display: flex;
+}
+.topAppBar__columns{
+    display: flex;
+}
+.topAppBar__columns__column{
+    display: flex;
+    align-items: center;
+}   
+.topAppBar__columns.logo{
+    /* margin-left: 150px; */
+    position: absolute;
+    top: 63px;
+    left: 138px;
+}
+.topAppBar__columns.serch{
+    width: 1004px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* style */
+
+/* logo */
+
+.subLogo{
+    height: 24px;
+    padding-right: 15px;
+    border-right: 1px solid #e2e2e2;
+}
+.mainLogo{
+    padding: 2px 0 2px 0;
+    margin-left: 15px;
+    margin-right: 132px;
+}
+
+
+/* serch */
+.topAppBar__columns__column.iconBox{
+    width: 28px;
+    height: 34px;
+    background-color: #03a9ff;
+}
+.serchIcon{
+    background-color: #03a9ff;
+    height: 24px;
+    width: 24px;
+}
+.topAppBar__columns__column select{
+    font-family: "NotoSansKR";
+    height: 34px;
+    width: 68px;
+    font-size: 10px;
+    border: solid 2px #03a9ff;
+    border-right: none;
+    color: #474643;
+    letter-spacing: -0.48px;
+    padding-left: 10px;
+    text-align: left;
+    appearance: none;
+    background: url('../images/arrow_drop_down-24px.svg') no-repeat left 50px center;
+}
+
+.topAppBar__columns__column input{
+    width: 230px;
+    height: 34px;
+    font-size: 12px;
+    border: solid 2px #03a9ff;
+    border-left: none;
+}
+
+.topAppBar__columns__column select, input:focus, :hover{
+    outline: none;
+}

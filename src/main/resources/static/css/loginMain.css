@@ -1,0 +1,125 @@
+/* layout */
+
+.loginMain{
+    display: flex;
+    justify-content: center;
+    width: 834px;
+    height: 402px;
+    border-top: solid 4px #27303f;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.loginMain__columns__column{
+    display: flex;
+    align-items: center;
+    width: 329px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.loginMain__columns__column.help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.loginMain__help{
+    display: flex;
+    align-items: center;
+}
+
+.loginMain__help:last-child{
+    margin-top: 7px;
+}
+
+/* style */
+
+.loginMain__headText{
+    font-size: 20px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+    color: #03a9ff;
+    margin-top: 44px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loginMain__id, .loginMain__password{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #444444;
+}
+
+.loginMain__id{
+    margin-right: 30px;
+}
+
+.loginMain__password{
+    margin-right: 19px;
+}
+
+.loginMain__idInputBox, .loginMain__passwordInputBox{
+    width: 220px;
+    height: 32px;
+    border: solid 1px #c8c6c7;
+    outline: none;
+}
+
+.loginMain__idInputBox{
+    margin-bottom: 10px;
+}
+
+.loginMain__loginButton{
+    width: 329px;
+    height: 51px;
+    background-color: #03a9ff;
+    color: white;
+    font-size: 14px;
+    font-family: 'NotoSansKR-Light';
+    outline: none;
+    border: none;
+    margin-top: 35px;
+}
+
+.loginMain__columns__column.help{
+    width: 734px;
+    height: 74px;
+    margin-top: 35px;
+    background-color: #f5f5f5;
+}
+
+.loginMain__question{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #444444;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.loginMain__linkToMembership, .loginMain__serchForId{
+    height: 19px;
+    border: solid 1px #dedede;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 8px;
+    font-family: 'NotoSansKR-Light';
+    text-decoration: none;
+    color: #767676;
+    text-align: center;
+    line-height: 19px;
+    vertical-align: middle;
+}
+
+.loginMain__linkToMembership{
+    width: 60px;
+    margin-left: 19px;
+}
+
+.loginMain__serchForId{
+    width: 120px;
+}

@@ -1,0 +1,65 @@
+/* layout */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 48px 0;
+}
+.footer__columns{
+    width: 1004px;
+}
+.footer__columns__column{
+    display: flex;
+}
+
+.footer__columns__column.thirdLine{
+    height: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+
+/* style */
+
+.footer__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR Regular';
+    color: #707070;
+    height: 15px;
+    padding-right: 10px;
+    border-right: solid 1px #707070;
+    margin-bottom: 4px;
+}
+
+.footer__text:not(:first-child){
+    padding-left: 10px;
+}
+
+.footer__columns__column.firstLine div:last-child{
+    border: none;
+}
+
+.footer__columns__column.secondLine div:last-child{
+    border: none;
+}
+
+
+/* Copyright section */
+.footer__columns__column:last-child div{
+    border: none;
+}
+
+.footer__confirm{
+    width: 90px;
+    height: 20px;
+    background-color: #efeeec;
+    text-align: center;
+}
+
+.footer__confirm a{
+    font-size: 8px;
+    font-family: 'NotoSansKR Regular';
+    text-decoration: none;
+    color: #707070;
+}
+

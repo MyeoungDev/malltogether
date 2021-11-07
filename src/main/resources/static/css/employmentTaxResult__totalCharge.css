@@ -1,0 +1,30 @@
+/* layout */
+
+.employmentTaxResult__totalCharge{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 273px;
+}
+
+.employmentTaxResult__totalCharge__columns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1004px;
+    height: 40px;
+    border-bottom: solid 1px #c8c6c7;
+    padding-right: 40px;
+}
+
+/* style */
+
+.employmentTaxResult__totalCharge__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+}
+
+.totalCharge{
+    color: #039aff;
+    margin-left: 30px;
+}

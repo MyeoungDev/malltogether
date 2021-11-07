@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageCategoryBar.css">
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+
+    <link rel="stylesheet" href="./public/css/sellerPageTaxBill__date.css">
+    <link rel="stylesheet" href="./public/css/sellerPageVATTable.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">정산 조회</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="myPageCategoryBar">
+            <div class="myPageCategoryBar__columns">
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="myPageCategoryBar__text">정산 조회</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageTaxBill.html" class="myPageCategoryBar__text">세금계산서</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageVAT.html" class="myPageCategoryBar__text">부가가치세</a>
+                </div>
+            </div>          
+        </section>
+
+        <div class="sellerPageTaxBill__notice">
+            <p class="sellerPageTaxBill__notice__text">
+                - 이 자료는 부가가치세법 75조에 따라, 2018년 1월부터 국세청에 제출하는 내역을 기준으로 작성되었습니다.
+            </p>
+            <p class="sellerPageTaxBill__notice__text">
+                - 사업자 판매자님께서는 부가세 신고 시 작성하는 과세표준금액(면세 수입금액)에 참고해주십시오.
+            </p>
+            <p class="sellerPageTaxBill__notice__text">
+                - 개인 판매자가 판매하는 과세상품은 일괄 면세로 표시됩니다.
+            </p>
+            <p class="sellerPageTaxBill__notice__text">
+                - 각 신고 내역은 매월 5일에 전월 합계정보가 생성됩니다.
+            </p>
+            <p class="sellerPageTaxBill__notice__text">
+                - 각 기간은 PG사와 현금영수증 사업자가 국세청에 전송하는 것에 맞추어, 승인일을 기준으로 조회되므로 실제 매출 시점과 차이가 있을 수 있습니다.
+            </p>
+            <p class="sellerPageTaxBill__notice__text">
+                - 기타 결제 항목에는 신용카드, 현금성 결제, 휴대폰 결제를 제외한 모든 결제수단이 포함됩니다. 
+            </p>
+        </div>
+
+        <p class="sellerPageTaxBill__headText">정산 대상 기간 설정</p>
+
+        <section class="sellerPageTaxBill__date">
+            <div class="sellerPageTaxBill__date__columns">
+                <div class="sellerPageTaxBill__date__columns__column">
+                    <p class="sellerPageTaxBill__date__text">기간</p>
+                    <select name="year" class="sellerPageTaxBill__date__year">
+                        <option value="" selected>년</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                        <option value="">2012</option>
+                        <option value="">2013</option>
+                        <option value="">2014</option>
+                        <option value="">2015</option>
+                        <option value="">2016</option>
+                        <option value="">2017</option>
+                        <option value="">2018</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                        <option value="">2029</option>
+                        <option value="">2030</option>
+                        <option value="">2031</option>
+                        <option value="">2032</option>
+                        <option value="">2033</option>
+                        <option value="">2034</option>
+                        <option value="">2035</option>
+                        <option value="">2036</option>
+                        <option value="">2037</option>
+                        <option value="">2038</option>
+                        <option value="">2039</option>
+                        <option value="">2040</option>
+                    </select>
+                    <select name="month" class="sellerPageTaxBill__date__month">
+                        <option value="" selected>월</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <p class="sellerPageTaxBill__date__subText">월분</p>
+
+                    <p class="sellerPageTaxBill__date__hyphen">~</p>
+                    
+                    <select name="year" class="sellerPageTaxBill__date__year">
+                        <option value="" selected>년</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                        <option value="">2012</option>
+                        <option value="">2013</option>
+                        <option value="">2014</option>
+                        <option value="">2015</option>
+                        <option value="">2016</option>
+                        <option value="">2017</option>
+                        <option value="">2018</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                        <option value="">2029</option>
+                        <option value="">2030</option>
+                        <option value="">2031</option>
+                        <option value="">2032</option>
+                        <option value="">2033</option>
+                        <option value="">2034</option>
+                        <option value="">2035</option>
+                        <option value="">2036</option>
+                        <option value="">2037</option>
+                        <option value="">2038</option>
+                        <option value="">2039</option>
+                        <option value="">2040</option>
+                    </select>
+                    <select name="month" class="sellerPageTaxBill__date__month">
+                        <option value="" selected>월</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                        <option value="">8</option>
+                        <option value="">9</option>
+                        <option value="">10</option>
+                        <option value="">11</option>
+                        <option value="">12</option>
+                    </select>
+                    <p class="sellerPageTaxBill__date__subText">월분</p>
+
+                    <button type="button" class="sellerPageTaxBill__date__button">조회하기</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="sellerPageVATTable">
+            <div class="sellerPageVATTable__columns">
+                <table class="sellerPageVATTable__table">
+
+                    <th class="sellerPageVATTable__table__header">기간</th>
+                    <th class="sellerPageVATTable__table__header">다운로드</th>
+                    <th class="sellerPageVATTable__table__header">판매총액</th>
+                    <th class="sellerPageVATTable__table__header">과세판매액</th>
+                    <th class="sellerPageVATTable__table__header">면세판매액</th>
+                    <th class="sellerPageVATTable__table__header">배송비</th>
+                    <th class="sellerPageVATTable__table__header">차감배송비</th>
+                    <th class="sellerPageVATTable__table__header">반송비</th>
+                    <th class="sellerPageVATTable__table__header">신용카드</th>
+                    <th class="sellerPageVATTable__table__header">현금성결제</th>
+
+                    <tr class="sellerPageVATTable__table__line">
+                       
+                        <td class="sellerPageVATTable__table__row">202005</td>
+                        <td class="sellerPageVATTable__table__row">
+                            <button type="button" class="sellerPageVATTable__button">엑셀 다운로드</button>
+                        </td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+
+                    </tr>
+
+                    <tr class="sellerPageVATTable__table__line">
+                       
+                        <td class="sellerPageVATTable__table__row">202005</td>
+                        <td class="sellerPageVATTable__table__row">
+                            <button type="button" class="sellerPageVATTable__button">엑셀 다운로드</button>
+                        </td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        
+                    </tr>
+
+                    <tr class="sellerPageVATTable__table__line">
+                       
+                        <td class="sellerPageVATTable__table__row">202005</td>
+                        <td class="sellerPageVATTable__table__row">
+                            <button type="button" class="sellerPageVATTable__button">엑셀 다운로드</button>
+                        </td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        
+                    </tr>
+
+                    <tr class="sellerPageVATTable__table__line">
+                       
+                        <td class="sellerPageVATTable__table__row">202005</td>
+                        <td class="sellerPageVATTable__table__row">
+                            <button type="button" class="sellerPageVATTable__button">엑셀 다운로드</button>
+                        </td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        <td class="sellerPageVATTable__table__row">000,000원</td>
+                        
+                    </tr>
+
+                </table>
+
+                <div class="sellerPageTaxBill__notice">
+                    <p class="sellerPageTaxBill__notice__text">
+                        - 차감배송비는 지정택배를 이용하신 경우, 공제한 금액을 표시한 것입니다.
+                    </p>
+                    <p class="sellerPageTaxBill__notice__text">
+                        - 국세청에 판매대행자료 제출시, 상품판매금액과 배송료를 포함하여 제출하도록 되어 있으나, 2018년 상반기는 부득이하게 상품판매금액만 전송할 예정입니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+</body>
+</html>

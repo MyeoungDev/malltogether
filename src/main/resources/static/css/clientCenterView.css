@@ -1,0 +1,109 @@
+/* table */
+
+.clientCenterView{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.clientCenterView__columns{
+    width: 1004px;
+}
+
+
+.clientCenterView__table{
+    width: 1004px;
+    border-top: solid 2px #039aff;
+}
+
+.clientCenterView__table__row{
+    vertical-align: middle;
+    border-right: solid 1px #bababa;
+    border-bottom: solid 1px #bababa;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    padding-left: 15px;
+}
+
+.clientCenterView__table__row:first-child{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    height: 30px;
+    background-color: #f5f5f5;
+    padding-left: 0;
+    width: 150px;
+}
+
+.clientCenterView__table__row:last-child{
+    border-right: none;
+}
+
+.clientCenterView__table__row:nth-child(2n-1){
+    color: #27303f;
+    text-align: center;
+}
+
+.clientCenterView__table__row:nth-child(3){
+    width: 80px;
+    padding-left: 0;
+}
+
+.clientCenterView__table__row:nth-child(5){
+    width: 80px;
+    padding-left: 0;
+}
+
+.clientCenterView__table__row:nth-child(4){
+    width: 100px;
+}
+
+
+.clientCenterView__table__row:nth-child(2){
+    width: 500px;
+}
+
+/* clientCenterView__contents */
+
+.clientCenterView__contents{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.clientCenterView__contents__text{
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    height: 100px;
+    /* border-bottom: solid 1px #bababa; */
+}
+
+.clientCenterView__contents__head{
+    /* width: 80px; */
+    /* text-align: center; */
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    /* margin-top: 10px; */
+    border-bottom: solid 2px #039aff;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.clientCenterView__contents__answer{
+    height: 100px;
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    margin-bottom: 30px;
+}
+
+
+
+

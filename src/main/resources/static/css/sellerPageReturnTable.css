@@ -1,0 +1,117 @@
+/* layout */
+
+.sellerPageReturnTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.sellerPageReturnTable__columns{
+    width: 1004px;
+}
+
+.sellerPageReturnTable__table{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.sellerPageReturnTable__table__line.table__haeder .sellerPageReturnTable__table__row{
+    background-color: #f5f5f5;
+    color: #27303f;
+}
+
+.sellerPageReturnTable__table__row{
+    height: 39px;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: solid 1px #bababa;
+    border-right: solid 1px #bababa;
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+}
+
+.sellerPageReturnTable__table__row:last-child{
+    border-right: none;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(1){
+    width: 33px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(2){
+    width: 40px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(3){
+    width: 60px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(4){
+    width: 288px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(5){
+    width: 80px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(6){
+    width: 70px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(7){
+    width: 110px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(8){
+    width: 110px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(9){
+    width: 120px;
+}
+
+.sellerPageReturnTable__table__line.table__layout .sellerPageReturnTable__table__row:nth-child(10){
+    width: 84px;
+}
+
+.sellerPageReturnTable__table__row p{
+    line-height: 1.3em;
+}
+
+/* style */
+
+.sellerPageReturnTable__checkBox, .sellerPageReturnTable__header__checkBox{
+    width: 13px;
+    height: 13px;    
+}
+
+/* sellerPageReturn__btmButton */
+
+.sellerPageReturn__btmButton{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 290px;
+}
+
+.sellerPageReturn__btmButton__button{
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 10px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    outline: none;
+}
+
+.sellerPageReturn__btmButton__button:first-child{
+    width: 72px;
+}
+
+.sellerPageReturn__btmButton__button:last-child{
+    width: 46px;
+}

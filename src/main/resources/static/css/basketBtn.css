@@ -1,0 +1,45 @@
+/* layout */
+
+.basketBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.basketBtn__columns{
+    width: 1004px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    border-bottom: solid 1px #c8c6c7;
+}
+
+.basketBtn__columns__column{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* style */
+
+.basketBtn__button{
+    width: 155px;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-family: 'NotoSansKR';
+    margin-left: 10px;
+    color: white;
+    border: none;
+}
+
+.basketBtn__button.estimate{
+    background-color: #03a9ff;
+}
+
+.basketBtn__button.order{
+    background-color: #03a9ff;
+}
+
+.basketBtn__button.keep{
+    background-color: #0161b2;
+}

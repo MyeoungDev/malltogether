@@ -1,0 +1,112 @@
+/* sellerPageBoardNoticeEdit__headText */
+
+.sellerPageBoardNoticeEdit__headText{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1004px;
+    font-size: 22px;
+    font-family: 'NotoSansKR-Bold';
+    margin-top: 50px;
+}
+
+/* layout */
+
+.sellerPageBoardNoticeEdit{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 282px;
+}
+
+.sellerPageBoardNoticeEdit__columns{
+    width: 1004px;
+    height: 205px;
+    background-color: #f5f5f5;
+}
+
+.sellerPageBoardNoticeEdit__columns__column{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* style */
+
+.sellerPageBoardNoticeEdit__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    margin-right: 10px;
+}
+
+.sellerPageBoardNoticeEdit__inputBox{
+    width: 776px;
+    height: 66px;
+    outline: none;
+    border: solid 1px #c8c6c7;
+    margin-right: 6px;
+}
+
+.sellerPageBoardNoticeEdit__save__button{
+    width: 132px;
+    height: 66px;
+    background-color: #039aff;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    outline: none;
+}
+
+.sellerPageBoardNoticeEdit__inputBox__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    width: 836px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.sellerPageBoardNoticeEdit__date__year,
+.sellerPageBoardNoticeEdit__date__month,
+.sellerPageBoardNoticeEdit__date__date{
+    width: 43px;
+    height: 22px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    border: solid 1px #c8c6c7;
+    outline: none;
+}
+
+.sellerPageBoardNoticeEdit__date__year{
+    width: 63px;
+}
+
+.sellerPageBoardNoticeEdit__hyphen{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    margin: 0 2px;
+}
+
+
+.sellerPageBoardNoticeEdit__checkBox__container{
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
+    margin-top: 6px;
+}
+
+
+.sellerPageBoardNoticeEdit__checkBox{
+    width: 13px;
+    height: 13px;
+    outline: none;
+}
+
+.sellerPageBoardNoticeEdit__checkBox__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}

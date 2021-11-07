@@ -1,0 +1,25 @@
+/* layout */
+
+.clientCenterRegistButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.clientCenterRegistButton__columns{
+    width: 1004px;
+    /* justify-content: flex-end; */
+    text-align: right;
+}
+
+/* style */
+
+.clientCenterRegistButton__button{
+    width: 100px;
+    height: 32px;
+    background-color: #03a9ff;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'NotoSansKR-Light';
+    border: none;
+}

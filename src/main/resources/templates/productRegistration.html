@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+    
+    <link rel="stylesheet" href="./public/css/productRegistration.css">
+    <link rel="stylesheet" href="./public/css/productRegistration__productPrice.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">상품등록</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="productRegistration">
+            <div class="productRegistration__columns">
+                <div class="productRegistration__columns__column">
+                    <p class="productRegistration__headText">카테고리</p>
+                    <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__head__img">
+                </div>
+                <div class="productRegistration__columns__column">
+                    <div class="productRegistration__category__box">
+                        <button type="button" class="productRegistration__category__serch">카테고리 검색</button>
+                        <button type="button" class="productRegistration__category__select">카테고리 선택</button>
+                        <button type="button" class="productRegistration__category__template">카테고리 템플릿</button>
+                        <input type="checkbox" class="productRegistration__checkBox">
+                        <p class="productRegistration__checkBox__text">템플릿 추가</p>
+                    </div>
+                    <input type="text" class="productRegistration__text__box" placeholder="카테고리명 입력">
+                    <p class="productRegistration__notice">
+                        상품과 맞지 않는 카테고리에 등록할 경우 강제 이동되거나 판매중지, 판매금지 될 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="productRegistration">
+            <div class="productRegistration__columns">
+                <div class="productRegistration__columns__column">
+                    <p class="productRegistration__headText">상품명</p>
+                    <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__head__img">
+                </div>
+                <div class="productRegistration__columns__column product__name">
+                    <div class="productRegistration__productName__inputContainer">
+                        <input type="text" class="productRegistration__text__box"><p class="productRegistration__input__sideText">0/100</p>
+                    </div>
+                    <p class="productRegistration__notice">
+                        판매 상품과 직접 상관이 없는 다른 상품명, 스팸성 키워드 입력 시 관리자에 의해 판매금지 될 수 있습니다.
+                    </p>
+                    <p class="productRegistration__notice product__name">
+                        유명 상품 유사문구를 무단으로 도용하여 ~스타일, ~st 등과 같이 기재하는 경우 별도 고지 없이 제재될 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="productRegistration__productPrice">
+
+            <div class="productRegistration__productPrice__head">
+                <p class="productRegistration__productPrice__headText">판매가</p>
+                <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__productPrice__head__img">
+            </div>
+
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">판매가</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <div class="productRegistration__productPrice__column__box">
+                        <input type="text" class="price__input">
+                        <p class="prcie__input__text">원</p>
+                    </div>
+                    <p class="productRegistration__productPrice__notice">안내 멘트 1</p>
+                    <p class="productRegistration__productPrice__notice">안내 멘트 2</p>
+                </div>
+            </div>
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">할인</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column button__box">
+                    <button type="button" class="productRegistration__productPrice__button">설정함</button>
+                    <button type="button" class="productRegistration__productPrice__button button__active">설정안함</button>
+                </div>
+            </div>
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">판매기간</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column date__box">
+                    <input type="date" class="productRegistration__productPrice__date" value="2020-10-10">
+                    <p class="productRegistration__productPrice__hyphen">~</p>
+                    <input type="date" class="productRegistration__productPrice__date" value="2020-10-10">
+                </div>
+            </div>
+
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">부가세</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column button__box">
+                    <button type="button" class="productRegistration__productPrice__button button__active">과세상품</button>
+                    <button type="button" class="productRegistration__productPrice__button">면세상품</button>
+                    <button type="button" class="productRegistration__productPrice__button">영세상품</button>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="productRegistration">
+            <div class="productRegistration__columns">
+                <div class="productRegistration__columns__column">
+                    <p class="productRegistration__headText">재고수량</p>
+                    <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__head__img">
+                </div>
+                <div class="productRegistration__columns__column product__stock">
+                    <div class="productRegistration__productStock__inputContainer">
+                        <input type="text" class="productRegistration__text__box product__stock" value="숫자만 입력">
+                        <p class="productRegistration__input__sideText product__stock">개</p>
+                        <p class="productRegistration__notice product__stock">
+                            옵션 수량을 사용하면, 옵션의 재고 수량으로 적용되어 자동으로 입력됩니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="productRegistration__productPrice">
+
+            <div class="productRegistration__productPrice__head">
+                <p class="productRegistration__productPrice__headText">옵션</p>
+                <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__productPrice__head__img">
+            </div>
+
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">선택형</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column button__box">
+                    <button type="button" class="productRegistration__productPrice__button">설정함</button>
+                    <button type="button" class="productRegistration__productPrice__button button__active">설정안함</button>
+                </div>
+            </div>
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">직접입력형</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <input type="text" class="productRegistration__productOption__textBox">
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="productRegistration__productPrice">
+
+            <div class="productRegistration__productPrice__head">
+                <p class="productRegistration__productPrice__headText">상품이미지</p>
+                <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__productPrice__head__img">
+            </div>
+
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">대표이미지</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <div class="productIgm__imgBox">
+                        <img src="./public/images/ic_keyboard_arrow_down_24px__plusIcon.png" alt="" class="addImg__icon">
+                    </div>
+                    <p class="productRegistration__notice">
+                        권장 크기 : 1000px X 1000px (윈도대상 750px X 1000px)
+                    </p>
+                </div>
+            </div>
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">추가이미지 (0/9)</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <div class="productIgm__imgBox">
+                        <img src="./public/images/ic_keyboard_arrow_down_24px__plusIcon.png" alt="" class="addImg__icon">
+                    </div>
+                    <button type="button" class="productImg__order__change">순서변경</button>
+                    <p class="productRegistration__notice">
+                        권장 크기 : 1000px X 1000px (윈도대상 750px X 1000px)
+                    </p>
+                    <p class="productRegistration__notice product__img__notice">
+                        추가 이미지는 최대 9개까지 설정할 수 있습니다.
+                    </p>
+                    <p class="productRegistration__notice product__img__notice">
+                        jpg, jpeg, gif, png, bmp 형식의 정지 이미지만 등록됩니다. (움직이는 이미지는 첫 번째 컷이 등록)
+                    </p>
+                </div>
+            </div>
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">동영상</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <div class="productIgm__imgBox">
+                        <img src="./public/images/ic_keyboard_arrow_down_24px__plusIcon.png" alt="" class="addImg__icon">
+                    </div>
+                    <button type="button" class="productImg__order__change">GIF 미리보기</button>
+                    <p class="productRegistration__notice">
+                        권장 동영상 길이 : 최대 1분
+                    </p>
+                </div>
+            </div>
+
+            <div class="productRegistration__productPrice__columns">
+                <div class="productRegistration__productPrice__columns__column">
+                    <p class="productRegistration__productPrice__text">동영상 타이틀</p>
+                </div>
+                <div class="productRegistration__productPrice__columns__column">
+                    <input type="text" class="video__title__input">
+                    <p class="productRegistration__notice">
+                        권장 동영상 길이 : 최대 1분
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="productRegistration__productPrice product__info">
+
+            <div class="productRegistration__productPrice__head">
+                <p class="productRegistration__productPrice__headText">상품설명</p>
+                <img src="./public/images/ic_keyboard_arrow_down_24px.png" alt="" class="productRegistration__productPrice__head__img">
+            </div>
+
+            <div class="product__info__columns">
+                <div class="product__info__columns__column">
+                    <p class="product__info__tabMenu info__tab__active">직접 작성</p>
+                    <p class="product__info__tabMenu">HTML 작성</p>
+                </div>
+                <div class="product__info__textBox">
+                    <input type="text" class="product__info__input" placeholder="작성된 내용이 없습니다.">
+                </div>
+            </div>
+            <p class="product__info__notice emphasis">
+                외부 링크를 통한 개인정보 수집은 금지되므로 등록시 노출이 제재될 수 있습니다.
+            </p>
+            <p class="product__info__notice">
+                상품명과 직접적 관련이 없는 상세 설명, 외부 링크 입력시 관리자에 의해 판매금지될 수 있습니다.
+            </p>
+            <p class="product__info__notice">
+                안전거래 정책에 위배될 경우 관리자에 의해 제재조치될 수 있습니다.
+            </p>
+            <p class="product__info__notice">
+                상세설명 권장 크기 : 860px
+            </p>
+            
+            
+        </section>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

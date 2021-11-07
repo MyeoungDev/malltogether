@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="34" viewBox="0 0 154 34">
+    <path fill="#27303f" d="M0 0H154V34H0z"/>
+    <text fill="#fff" font-family="AppleSDGothicNeo-Medium, Apple SD Gothic Neo" font-size="13px" font-weight="500" transform="translate(39 22)">
+        <tspan x="0" y="0">카테고리</tspan>
+    </text>
+    <g>
+        <path fill="none" d="M0 0h24v24H0z" transform="translate(10 5)"/>
+        <path fill="#fff" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" transform="translate(10 5)"/>
+    </g>
+</svg>

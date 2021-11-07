@@ -1,0 +1,106 @@
+/* sellerPageTaxBill__notice */
+
+.sellerPageTaxBill__notice{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.sellerPageTaxBill__notice__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    margin-top: 5px;
+}
+
+.sellerPageTaxBill__notice__text:first-child{
+    margin-top: 0;
+}
+
+/* sellerPageTaxBill__headText */
+
+.sellerPageTaxBill__headText{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'NotoSansKR-Bold';
+    color: #27303f;
+}
+
+/* sellerPageTaxBill__date */
+
+/* layout */
+
+.sellerPageTaxBill__date{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.sellerPageTaxBill__date__columns{
+    width: 1004px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.sellerPageTaxBill__date__columns__column{
+    display: flex;
+    align-items: center;
+}
+
+/* style */
+
+.sellerPageTaxBill__date__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    margin-right: 10px;
+}
+
+.sellerPageTaxBill__date__year, .sellerPageTaxBill__date__month{
+    width: 63px;
+    height: 22px;
+    border: solid 1px #c8c6c7;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    margin-right: 4px;
+    outline: none;
+}
+
+.sellerPageTaxBill__date__month{
+    width: 43px;    
+}
+
+.sellerPageTaxBill__date__subText{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.sellerPageTaxBill__date__hyphen{
+    margin: 0 10px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.sellerPageTaxBill__date__button{
+    width: 132px;
+    height: 44px;
+    background-color: #03a9ff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    margin-left: 37px;
+}

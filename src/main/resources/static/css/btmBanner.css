@@ -1,0 +1,81 @@
+/* layout */
+.btmBanner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1004px;
+    height: 120px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.btmBanner__columns__column.telNumber{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+/* style */
+
+
+/* left */
+
+.btmBanner__clientText{
+    font-size: 16px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 36px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btmBanner__clientText span{
+    color: #03a9ff;
+    margin-left: -3px;
+}
+
+.btmBanner__clientImg{
+    margin-left: 47px;
+}
+
+.btmBanner__columns.left{
+    margin-right: 40px;
+}
+
+/* right */
+
+.btmBanner__client__telNumber{
+    font-size: 40px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.btmBanner__client__telNumber span{
+    color: #03a9ff;
+}
+
+.btmBanner__client__telNumber.slice{
+    margin: 0 39px 0 40px;
+}
+
+.btmBanner__cline__info{
+    width: 804px;
+    border-top: solid 1px #bababa;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.btmBanner__cline__info p{
+    text-align: center;
+    color: #707070;
+}
+
+
+
+
+
+
+

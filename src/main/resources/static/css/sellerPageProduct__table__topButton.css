@@ -1,0 +1,20 @@
+/* layout */
+
+.sellerPageProduct__table__topButton{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* style */
+
+.sellerPageProduct__table__topButton__button{
+    font-size: 10px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    border: solid 1px #c8c6c7;
+    background-color: #ffffff;
+    outline: none;
+}

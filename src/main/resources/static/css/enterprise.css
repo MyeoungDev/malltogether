@@ -1,0 +1,19 @@
+/* layout */
+.enterprise{
+    /* margin-left: 138px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    border-top: solid 1px #c8c6c7;
+    width: 1004px;
+}
+
+.enterprise__columns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* style */

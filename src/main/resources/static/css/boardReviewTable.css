@@ -1,0 +1,106 @@
+/* boardReview__notice */
+
+.boardReview__notice{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.boardReview__notice__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    margin-top: 5px;
+}
+
+.boardReview__notice__text:first-child{
+    margin-top: 0;
+}
+
+/* boardReviewTable */
+
+.boardReviewTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 583px;
+}
+
+.boardReviewTable__columns{
+    width: 1004px;
+}
+
+.boardReviewTable__table{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.boardReviewTable__table__header{
+    height: 32px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    background-color: #fafafa;
+    vertical-align: middle;
+    border-bottom: solid 1px #c8c6c7;
+    border-right: solid 1px #c8c6c7;
+}
+
+.boardReviewTable__table__header:last-child{
+    border-right: none;
+}
+
+.boardReviewTable__table__header:nth-child(1){
+    width: 70px;
+}
+
+.boardReviewTable__table__header:nth-child(2){
+    width: 545px;
+}
+
+.boardReviewTable__table__header:nth-child(3){
+    width: 80px;
+}
+
+.boardReviewTable__table__header:nth-child(4){
+    width: 126px;
+}
+
+.boardReviewTable__table__header:nth-child(5){
+    width: 80px;
+}
+
+.boardReviewTable__table__header:nth-child(6){
+    width: 98px;
+}
+
+.boardReviewTable__table__row{
+    height: 32px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: solid 1px #c8c6c7;
+    border-right: solid 1px #c8c6c7;
+}
+
+.boardReviewTable__table__row:last-child{
+    border-right: none;
+}
+
+.boardReviewTable__table__row:first-child{
+    color: #03a9ff;
+}
+
+.boardReviewTable__table__row:nth-child(2){
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.boardReviewTable__table__row a{
+    text-decoration: none;
+    color: #767676;
+}

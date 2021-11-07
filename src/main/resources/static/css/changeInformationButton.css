@@ -1,0 +1,25 @@
+/* layout */
+
+.changeInformationButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.changeInformationButton__columns{
+    width: 1004px;
+    text-align: end;
+}
+
+/* style */
+
+.changeInformationButton__button{
+    width: 100px;
+    height: 32px;
+    background-color: #03a9ff;
+    color: white;
+    font-size: 14px;
+    font-family: 'NotoSansKR-Light';
+    border: none;
+    outline: none;
+}

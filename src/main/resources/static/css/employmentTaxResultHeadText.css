@@ -1,0 +1,21 @@
+/* layout */
+
+.employmentTaxResultHeadText{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.employmentTaxResultHeadText__columns{
+    display: flex;
+    justify-content: flex-start;
+    width: 1004px;
+}
+
+/* style */
+
+.employmentTaxResultHeadText__text{
+    font-size: 18px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}

@@ -1,0 +1,173 @@
+/* layout */
+
+.productRegistration{
+    display: flex;
+    justify-content: center;
+}
+
+.productRegistration__columns{
+    width: 1004px;
+    border: solid 1px #c8c6c7;
+    margin-top: 15px;
+}
+
+.productRegistration__columns .productRegistration__columns__column:first-child{
+    height: 63px;
+    border-bottom: solid 1px #c8c6c7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productRegistration__columns__column{
+    justify-content: center;
+    height: 127px;
+    width: 1004px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.productRegistration__columns__column:nth-child(2){
+    padding-top: 20px;
+}
+
+.productRegistration__category__box{
+    display: flex;
+    align-items: center;
+}
+
+/* style */
+
+.productRegistration__headText{
+    font-size: 22px;
+    font-family: 'NotoSansKR-Bold';
+}
+
+.productRegistration__head__img{
+    width: 24px;
+    height: 24px;
+}
+
+.productRegistration__category__serch, .productRegistration__category__select, .productRegistration__category__template{
+    width: 92px;
+    height: 25px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #ffffff;
+    border: solid 1px #c8c6c7;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.productRegistration__category__serch{
+    background-color: #03a9ff;
+}
+
+.productRegistration__category__select{
+    background-color: #ffffff;
+    color: #707070;
+    margin-right: 10px;
+    border-left: none;
+}
+
+.productRegistration__category__template{
+    background-color: #557088;
+    margin-right: 10px;
+}
+
+.productRegistration__checkBox{
+    width: 13px;
+    height: 13px;
+    outline: none;
+    margin-bottom: 13px;
+}
+
+.productRegistration__checkBox__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+    margin-bottom: 12px;
+    margin-left: 2px;
+}
+
+.productRegistration__text__box{
+    width: 944px;
+    height: 25px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+    border: solid 1px #c8c6c7;
+    padding-left: 10px;
+    outline: none;
+}
+
+.productRegistration__notice{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #03a9ff;
+    margin-top: 10px;
+}
+
+
+/* 2th category product__name */
+
+.productRegistration__columns__column.product__name .productRegistration__text__box{
+    width: 894px;
+}
+
+.productRegistration__productName__inputContainer{
+    display: flex;
+    align-items: center;
+}
+
+.productRegistration__input__sideText{
+    width: 50px;
+    height: 25px;
+    border: solid 1px #c8c6c7;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: center;
+    border-left: none;
+    background-color: #fafafa;
+}
+
+.productRegistration__notice.product__name{
+    margin-top: 3px;
+}
+
+.productRegistration__columns__column.product__name{
+    height: 110px;
+}
+
+
+/* productRegistration__product__stock */
+
+.productRegistration__columns__column.product__stock{
+    height: 70px;
+    padding-top: 10px;
+}
+
+.productRegistration__productStock__inputContainer{
+    display: flex;
+    align-items: center;
+}
+
+.productRegistration__text__box.product__stock{
+    width: 124px;
+    height: 25px;
+}
+
+.productRegistration__input__sideText.product__stock{
+    width: 30px;
+}
+
+.productRegistration__notice.product__stock{
+    margin-left: 15px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}

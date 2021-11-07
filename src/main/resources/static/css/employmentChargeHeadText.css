@@ -1,0 +1,16 @@
+.employmentChargeHeadText{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.employmentChargeHeadText__text{
+    width: 1004px;
+    font-size: 18px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.employmentChargeHeadText__text span{
+    color: #03a9ff;
+}

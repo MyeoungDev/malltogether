@@ -1,0 +1,106 @@
+/* headText style */
+
+.productDetail__essentialInformation__headText{
+    width: 1004px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    margin-top: 50px;
+}
+
+.productDetail__essentialInformation__headText span{
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+
+
+
+/* layout */
+
+.productDetail__essentialInformation{
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+.productDetail__essentialInformation__columns{
+    width: 1004px;
+}
+
+.productDetail__essentialInformation__table{
+    width: 1004px;
+    border-top: solid 1px #27303f;
+}
+
+.productDetail__essentialInformation__table__line{
+    border-bottom: solid 1px #e2e2e2;
+    height: 45px;
+}
+
+.productDetail__essentialInformation__table__line:nth-child(2),
+.productDetail__essentialInformation__table__line:nth-child(5){
+    height: 60px;
+}
+
+.productDetail__essentialInformation__table__line:nth-child(2) p{
+    width: 225px;
+    line-height: 1.4em;
+}
+
+.productDetail__essentialInformation__table__line:nth-child(5) p{
+    width: 140px;
+    line-height: 1.4em;
+}
+
+
+.productDetail__essentialInformation__table__row{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    vertical-align: middle;
+}
+
+.productDetail__essentialInformation__table__row:first-child{
+    width: 362px;
+    background-color: #fafafa;
+    padding-left: 10px;
+    border-right: solid 1px #e2e2e2;
+}
+
+.productDetail__essentialInformation__table__row:nth-child(2){
+    padding-left: 10px;
+}
+
+.productDetail__productImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.productDetail__productImg__columns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1004px;
+
+}
+
+.productDetail__productImg__img{
+    width: 599px;
+    margin-top: 5px;
+}
+
+.productDetail__productImg__btmBanner{
+    margin-top: 50px;
+}
+
+.productDetail__productImg__btmBanner img{
+    width: 1004px;
+}
+

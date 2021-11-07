@@ -1,0 +1,148 @@
+/* layout */
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__columns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__columns.category{
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+
+/* headText */
+
+.main__headText{
+    margin: 50px 0 19px 0;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1004px;
+}
+
+.highlight{
+    color: #03a9ff;
+}
+
+/* main category style */
+
+.main__columns.category{
+    width: 1004px;
+    height: 42px;
+    margin-bottom: 35px;
+    border: solid 1px #b1b1b1;;
+}
+.product__more{
+    text-align: right;
+}
+.main__columns__column.product__category{
+    width: 154px;
+    height: 42px;
+    line-height: 42px;
+    vertical-align: middle;
+    margin-left: -1px;
+    padding-left: 12px;
+    color: white;
+}
+
+
+.product__more{
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+}
+
+
+/* main product style */
+
+
+.main__productImg{
+    width: 239px;
+    height: 239px;
+    cursor: pointer;
+}
+
+.main__columns__column.product{
+    margin-right: 16px;
+}
+.main__columns__column.product:nth-child(4){
+    margin-right: 0;
+}
+
+.main__column__text{
+    font-family: 'NotoSansKR';
+    margin-bottom: 50px;
+    color: #27303f;
+}
+
+.product__name{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.product__enterprise{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #707070;
+}
+
+.product__price{
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+
+/* product category bar color */
+
+.main__columns__column.product__category.health{
+    background-color: #94af76;
+}
+
+.main__columns__column.product__category.food{
+    background-color: #4f9a94;
+}
+
+.main__columns__column.product__category.livingItem{
+    background-color: #4ba3c7;
+}
+.main__columns__column.product__category.officeItem{
+    background-color: #6f79a8;
+}
+.main__columns__column.product__category.culture{
+    background-color: #9c64a6;
+}
+.main__columns__column.product__category.service{
+    background-color: #ef9a9a;
+}
+.main__columns__column.product__category.rental{
+    background-color: #75a478;
+}
+.main__columns__column.product__category.safetyItem{
+    background-color: #4bacb8;
+}
+.main__columns__column.product__category.car{
+    background-color: #5d99c6;
+}
+.main__columns__column.product__category.etc{
+    background-color: #836fa9;
+}
+
+
+
+/* serchSection */
+
+.main__columns.serchSection{
+    margin-top: 35px;
+}

@@ -1,0 +1,28 @@
+/* layout */
+
+.myPageHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-bottom: 9px;
+    border-bottom: solid 4px #27303f;
+}
+.myPageHead__columns__column{
+    display: flex;
+    align-items: center;
+}
+
+
+/* style */
+
+
+.myPageHead__headText{
+    font-size: 32px;
+    font-family: 'NotoSansKR';
+    font-weight: 800;
+    color: #27303f;
+}

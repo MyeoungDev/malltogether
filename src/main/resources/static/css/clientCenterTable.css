@@ -1,0 +1,72 @@
+/* layout */
+
+.clientCenterTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.clientCenterTable__columns{
+    width: 1004px;
+}
+
+.clientCenterTable__table__head.number{
+    width: 126px;
+}
+
+.clientCenterTable__table__head.title{
+    width: 554px;
+}
+
+.clientCenterTable__table__head.writer{
+    width: 102px;
+}
+
+.clientCenterTable__table__head.hits{
+    width: 114px;
+}
+
+.clientCenterTable__table__head.reportDate{
+    width: 104px;
+}
+
+/* style */
+
+.clientCenterTabel__table{
+    width: 1004px;
+}
+
+.clientCenterTable__table__head{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border-bottom: solid 1px #27303f;
+    border-right: solid 1px #c8c6c7;
+    border-top: solid 2px #03a9ff;
+}
+
+.clientCenterTable__table__line{
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border-bottom: solid 1px #27303f;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.clientCenterTable__table__row{
+    border-right: solid 1px #c8c6c7;
+}
+
+.clientCenterTable__table__row:last-child{
+    border: none;
+}
+
+.clientCenterTable__table__row.enquiry{
+    text-align: left;
+    padding-left: 15px;
+}

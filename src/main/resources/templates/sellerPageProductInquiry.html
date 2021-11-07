@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageCategoryBar.css">
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+
+    <link rel="stylesheet" href="./public/css/sellerPageProductInquiry__inquiry.css">
+    <link rel="stylesheet" href="./public/css/sellerPageProduct__tip.css">
+    <link rel="stylesheet" href="./public/css/sellerPageFilter.css">
+    <link rel="stylesheet" href="./public/css/sellerPageProduct__table__topButton.css">
+    <link rel="stylesheet" href="./public/css/sellerPageProductInquiryTable.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">상품 조회 / 수정</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="myPageCategoryBar">
+            <div class="myPageCategoryBar__columns">
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./orderDelivery.html" class="myPageCategoryBar__text">주문배송조회</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./wishList.html" class="myPageCategoryBar__text">위시리스트</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./changeInformation.html" class="myPageCategoryBar__text">정보수정</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./employmentCharge.html" class="myPageCategoryBar__text">고용부담금 감면액 계산</a>
+                </div>
+            </div>          
+        </section>
+
+        <p class="sellerPageProductInquiry__notice">
+            - 상품주문이 접수되면 판매관리>주문확인요청에서 확인하실 수 있으며, 문자메시지와 E-mail을 통해 알려드립니다.
+        </p>
+
+        <section class="sellerPageProductInquiry__inquiry">
+            <div class="sellerPageProductInquiry__inquiry__columns">
+                <div class="sellerPageProductInquiry__inquiry__columns__column">
+                    
+                    <table class="sellerPageProductInquiry__inquiry__table">
+
+                        <tr class="sellerPageProductInquiry__inquiry__line">
+                            <td class="sellerPageProductInquiry__inquiry__row">판매상태별 조회</td>
+                            <td class="sellerPageProductInquiry__inquiry__row">
+                                <input type="radio" name="saleStatus" checked class="saleStatus__radio"><p class="saleStatus__radio__text">판매중</p>
+                                <input type="radio" name="saleStatus" class="saleStatus__radio"><p class="saleStatus__radio__text">판매대기</p>
+                                <input type="radio" name="saleStatus" class="saleStatus__radio"><p class="saleStatus__radio__text">일시판매중지</p>
+                                <input type="radio" name="saleStatus" class="saleStatus__radio"><p class="saleStatus__radio__text">판매중지</p>
+                                <input type="radio" name="saleStatus" class="saleStatus__radio"><p class="saleStatus__radio__text">판매완료</p>
+                                <input type="radio" name="saleStatus" class="saleStatus__radio"><p class="saleStatus__radio__text">판매금지</p>
+                            </td>
+                        </tr>
+                        
+                        <tr class="sellerPageProductInquiry__inquiry__line">
+                            <td class="sellerPageProductInquiry__inquiry__row">등록일자별 조회</td>
+                            <td class="sellerPageProductInquiry__inquiry__row">
+                                <input type="radio" name="date" checked class="date__radio"><p class="date__radio__text">전체</p>
+                                <input type="radio" name="date" class="date__radio"><p class="date__radio__text">일자별</p>
+                                <input type="text" class="date__detail__input">
+                                <span class="date__hyphen">~</span>
+                                <input type="text" class="date__detail__input">
+                            </td>
+                        </tr>
+
+                        <tr class="sellerPageProductInquiry__inquiry__line">
+                            <td class="sellerPageProductInquiry__inquiry__row">몰별&분야별 상품보기</td>
+                            <td class="sellerPageProductInquiry__inquiry__row">
+                                <select class="mall__select">
+                                    <option value="" selected>몰 선택</option>
+                                    <option value="" ></option>
+                                    <option value="" ></option>
+                                </select>
+                                <select class="field__select">
+                                    <option value="" selected>선택하세요</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                                <select class="field__select">
+                                    <option value="" selected>선택하세요</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr class="sellerPageProductInquiry__inquiry__line">
+                            <td class="sellerPageProductInquiry__inquiry__row">등록한 상품보기</td>
+                            <td class="sellerPageProductInquiry__inquiry__row">
+                                <select class="enrollment__product__name__select">
+                                    <option value="" selected>상품명</option>
+                                    <option value="" ></option>
+                                    <option value="" ></option>
+                                </select>
+                                <select class="enrollment__select">
+                                    <option value="" selected>선택하세요</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+                <div class="sellerPageProductInquiry__inquiry__columns__column">
+                    <button class="productInquiry__button">상품조회</button>
+                    <div class="productInquiry__serchBox">
+                        <button class="productInquiry__serch__button">검색</button>
+                        <button class="productInquiry__reset__button">검색 초기화</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <p class="sellerPageProduct__tip__head">
+            상품등록 팁
+        </p>
+
+        <section class="sellerPageProduct__tip">
+            <div class="sellerPageProduct__tip__columns">
+                <div class="sellerPageProduct__tip__columns__column">
+                    <p class="sellerPageProduct__tip__text">1.팁 내용</p>
+                </div>
+                <div class="sellerPageProduct__tip__columns__column">
+                    <p class="sellerPageProduct__tip__text">2.팁 내용</p>
+                </div>
+                <div class="sellerPageProduct__tip__columns__column">
+                    <p class="sellerPageProduct__tip__text">3.팁 내용</p>
+                </div>
+                <div class="sellerPageProduct__tip__columns__column">
+                    <p class="sellerPageProduct__tip__text">4.팁 내용</p>
+                </div>
+                <div class="sellerPageProduct__tip__columns__column">
+                    <p class="sellerPageProduct__tip__text">5.팁 내용</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sellerPageFilter">
+            <div class="sellerPageFilter__columns">
+                <div class="sellerPageFilter__columns__column">
+                    <p class="sellerPageFilter__filter__text">등록일순</p>
+                    <img src="./public/images/arrow_drop_down-__sellerPage24px.svg" alt="" class="sellerPageFilter__filter__img">
+                </div>
+                <div class="sellerPageFilter__columns__column">
+                    <p class="sellerPageFilter__filter__text">판매량순</p>
+                    <img src="./public/images/arrow_drop_down-__sellerPage24px.svg" alt="" class="sellerPageFilter__filter__img">
+                </div>
+                <div class="sellerPageFilter__columns__column">
+                    <p class="sellerPageFilter__filter__text">상품명순</p>
+                    <img src="./public/images/arrow_drop_down-__sellerPage24px.svg" alt="" class="sellerPageFilter__filter__img">
+                </div>
+                <div class="sellerPageFilter__columns__column">
+                    <p class="sellerPageFilter__filter__text">판매가순</p>
+                    <img src="./public/images/arrow_drop_down-__sellerPage24px.svg" alt="" class="sellerPageFilter__filter__img">
+                </div>
+                <div class="sellerPageFilter__columns__column">
+                    <p class="sellerPageFilter__filter__text">자체상품코드</p>
+                    <img src="./public/images/arrow_drop_down-__sellerPage24px.svg" alt="" class="sellerPageFilter__filter__img">
+                </div>
+            </div>
+
+            <div class="sellerPageFilter__columns">
+                <div class="sellerPageFilter__columns__column">
+                    <select class="sellerPageFilter__selectBar">
+                        <option value="25" selected>25개씩 보기</option>
+                        <option value="50">50개씩 보기</option>
+                        <option value="100">100개씩 보기</option>
+                    </select>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sellerPageProduct__table__topButton">
+            <button class="sellerPageProduct__table__topButton__button">선택상품 판매상태 변경</button>
+            <button class="sellerPageProduct__table__topButton__button">선택상품 삭제</button>
+            <button class="sellerPageProduct__table__topButton__button">엑셀 다운로드</button>
+            <button class="sellerPageProduct__table__topButton__button">팔기 상품 추가하기</button>
+        </section>
+
+        <section class="sellerPageProductInquiryTable">
+            <div class="sellerPageProductInquiryTable__colmuns">
+                <table class="sellerPageProductInquiryTable__table">
+                    <th class="sellerPageProductInquiryTable__table__header">
+                        <input type="checkbox" class="table__header__checkBox">
+                    </th>
+                    <th class="sellerPageProductInquiryTable__table__header">제품번호</th>
+                    <th class="sellerPageProductInquiryTable__table__header">상품명</th>
+                    <th class="sellerPageProductInquiryTable__table__header">자체상품코드</th>
+                    <th class="sellerPageProductInquiryTable__table__header">업체명</th>
+                    <th class="sellerPageProductInquiryTable__table__header">판매상태</th>
+                    <th class="sellerPageProductInquiryTable__table__header">수량</th>
+                    <th class="sellerPageProductInquiryTable__table__header">판매가</th>
+                    <th class="sellerPageProductInquiryTable__table__header">등록일</th>
+                    <th class="sellerPageProductInquiryTable__table__header">바로가기</th>
+
+                    <tr class="sellerPageProductInquiryTable__table__line">
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <input type="checkbox" class="table__line__checkBox">
+                        </td>
+                        <td class="sellerPageProductInquiryTable__table__row">000-000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">상품명 입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00000000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00,000 원</td>
+                        <td class="sellerPageProductInquiryTable__table__row">2020-10-10</td>
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <button class="table__modify__button">수정</button>
+                            <button class="table__web__button">웹 확인</button>
+                        </td>
+                    </tr>
+
+                    <tr class="sellerPageProductInquiryTable__table__line">
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <input type="checkbox" class="table__line__checkBox">
+                        </td>
+                        <td class="sellerPageProductInquiryTable__table__row">000-000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">상품명 입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00000000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00,000 원</td>
+                        <td class="sellerPageProductInquiryTable__table__row">2020-10-10</td>
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <button class="table__modify__button">수정</button>
+                            <button class="table__web__button">웹 확인</button>
+                        </td>
+                    </tr>
+
+                    <tr class="sellerPageProductInquiryTable__table__line">
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <input type="checkbox" class="table__line__checkBox">
+                        </td>
+                        <td class="sellerPageProductInquiryTable__table__row">000-000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">상품명 입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00000000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00,000 원</td>
+                        <td class="sellerPageProductInquiryTable__table__row">2020-10-10</td>
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <button class="table__modify__button">수정</button>
+                            <button class="table__web__button">웹 확인</button>
+                        </td>
+                    </tr>
+
+                    <tr class="sellerPageProductInquiryTable__table__line">
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <input type="checkbox" class="table__line__checkBox">
+                        </td>
+                        <td class="sellerPageProductInquiryTable__table__row">000-000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">상품명 입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00000000000</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">입력</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00</td>
+                        <td class="sellerPageProductInquiryTable__table__row">00,000 원</td>
+                        <td class="sellerPageProductInquiryTable__table__row">2020-10-10</td>
+                        <td class="sellerPageProductInquiryTable__table__row">
+                            <button class="table__modify__button">수정</button>
+                            <button class="table__web__button">웹 확인</button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </section>
+
+
+    </div>
+</body>
+</html>

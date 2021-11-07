@@ -1,0 +1,65 @@
+/* layout */
+.selectPageNumber{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+}
+
+.selectPageNumber__columns{
+    display: flex;
+    justify-content: center;
+    width: 1004px;
+    border-top: solid 1px #c8c6c7;
+    padding-top: 23px;
+}
+
+.selectPageNumber__columns__column{
+    display: flex;
+    align-items: center;
+}
+
+.selectPageNumber__columns__column img, .selectPageNumber__columns__column p{
+    margin-right: 20px;
+}
+/* style */
+
+.selectPageNumber__text{
+    font-size: 14px;
+    font-family: 'NotoSansKR';
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.selected__page{
+    background-color: #03a9ff;
+    color: white;
+}
+
+.selectPageNumber__columns__column a{
+    text-decoration: none;
+    color: #27303f;
+}
+
+/* clientCenter section  style */
+
+.selectPageNumber.clientCenter{
+    margin-top: 30px;
+}
+
+.selectPageNumber.clientCenter .selectPageNumber__columns{
+    border-top: none;
+}
+
+
+/* orderDelivery seciton style */
+
+.selectPageNumber.orderDelivery{
+    margin-top: 30px;
+}
+
+.selectPageNumber.orderDelivery .selectPageNumber__columns{
+    border-top: none;
+}

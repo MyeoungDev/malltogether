@@ -1,0 +1,26 @@
+/* layout */
+
+.employmentChargeButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 188px;
+}
+
+.employmentChargeButton__columns{
+    display: flex;
+    justify-content: flex-end;
+    width: 1004px;
+}
+
+/* style */
+
+.employmentChargeButton__button{
+    width: 100px;
+    height: 32px;
+    background-color: #03a9ff;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'NotoSansKR-Light';
+}

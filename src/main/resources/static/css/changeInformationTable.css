@@ -1,0 +1,112 @@
+/* layout */
+
+.changeInformationTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.changeInformationTable__columns{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.changeInformation__table__line{
+    height: 38px;
+}
+
+.changeInformation__table__row{
+    width: 766px;
+    vertical-align: middle;
+    border-bottom: solid 1px #c8c6c7;
+}
+
+.changeInformation__table__row:first-child{
+    width: 238px;
+    border-right: solid 1px #c8c6c7;
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+    background-color: #fafafa;
+}
+
+.changeInformation__table__row:nth-child(2){
+    padding-left: 16px;
+}
+
+
+.changeInformation__table__row.SMS, .changeInformation__table__row.newsLetter{
+    display: flex;
+    align-items: center;
+    height: 38px;
+}
+
+.changeInformation__SMS__text{
+    margin-right: 15px;
+}
+
+.changeInformation__newsLetter__text{
+    margin-right: 31px;
+}
+
+/* style */
+
+.changeInformation__id{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.zipCode__serchButton{
+    width: 70px;
+    height: 22px;
+    background-color: #bababa;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 10px;
+    font-family: 'NotoSansKR';
+}
+
+.changeInformation__SMS__text, .changeInformation__newsLetter__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}
+
+.changeInformation__input__SMS, .changeInformation__input__newsLetter{
+    width: 15px;
+    height: 15px;
+}
+.SMS__reception, .SMS__noneReception, .newsLetter__reception, .newsLetter__noneReception{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #474643;
+}
+
+
+
+
+/* input width */
+
+.changeInformation__table__row input{
+    height: 22px;
+    border: solid 1px #c8c6c7;
+}
+
+.changeInformation__input__phoneNumber, .changeInformation__input__cellPhoneNumber{
+    width: 83px;
+}
+
+.changeInformation__input__zipCode{
+    width: 80px;
+}
+
+.changeInformation__input__name, .changeInformation__input__password,.changeInformation__input__id, 
+.changeInformation__input__email, .changeInformation__input__faxNumber,
+.changeInformation__input__address {
+    width: 154px;
+}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/sellerPageHeader.css">
+    <link rel="stylesheet" href="./public/css/sellerPageCategory.css">
+
+    <link rel="stylesheet" href="./public/css/myPageCategoryBar.css">
+    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
+    <link rel="stylesheet" href="./public/css/selectOrderDate.css">
+    <link rel="stylesheet" href="./public/css/settlementInquiryTable.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="sellerPageHeader">
+            <div class="sellerPageHeader__columns">
+                <a href="./sellerPageMain.html" class="sellerPageHeader__mainAnchor"><span>판매자</span> 페이지</a>
+            </div>
+            <div class="sellerPageHeader__columns">
+                <a href="#" class="sellerPageHeader__anchor">로그아웃</a>
+                <a href="#" class="sellerPageHeader__anchor">판매자 정보 관리</a>
+            </div>
+        </header>
+
+        <section class="sellerPageCategory">
+            <div class="sellerPageCategory__columns">
+            
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./productRegistration.html" class="sellerPageCategory__category">상품등록</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageProductInquiry.html" class="sellerPageCategory__category">상품 조회 / 수정</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSalesManagement.html" class="sellerPageCategory__category">판매관리</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="sellerPageCategory__category">정산조회</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageBoardReview.html" class="sellerPageCategory__category">게시판</a>
+                </div>
+                <div class="sellerPageCategory__columns__column">
+                    <a href="./sellerPageReturn.html" class="sellerPageCategory__category">반품 관리</a>
+                </div>
+            
+            </div>
+        </section>
+
+        <section class="myPageHead">
+            <div class="myPageHead__columns">
+                <div class="myPageHead__columns__column">
+                    <p class="myPageHead__headText">정산 조회</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="myPageCategoryBar">
+            <div class="myPageCategoryBar__columns">
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageSettlementInquiry.html" class="myPageCategoryBar__text">정산 조회</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageTaxBill.html" class="myPageCategoryBar__text">세금계산서</a>
+                </div>
+                <div class="myPageCategoryBar__columns__column">
+                    <a href="./sellerPageVAT.html" class="myPageCategoryBar__text">부가가치세</a>
+                </div>
+            </div>          
+        </section>
+
+        <div class="settlementInquiry__notice">
+            <p class="settlementInquiry__notice__text">
+                - 정산은 배송이 완료된 후 수령인이 수령확은을 한 다음날 이루어지며, 만약 수령인이 수령확인을 하지 않으면 배송일 기준 6일 후에 이루어집니다.
+            </p>
+            <p class="settlementInquiry__notice__text">
+                - 정산 대상은 취소 및 반품을 제외하고 정상적으로 수령이 완료된 주문에 한합니다.
+            </p>
+        </div>
+
+        <p class="selectOrderDate__headText">
+            주문 기간 선택
+        </p>
+
+        <section class="selectOrderDate">
+            <div class="selectOrderDate__columns">
+                
+                <div class="selectOrderDate__columns__column">
+                    <p class="selectOrderDate__date__text">기간</p>
+                </div>
+
+                <div class="selectOrderDate__columns__column">
+                    <div class="selectOrderDate__button__box">
+                        <button type="button" class="selectOrderDate__date__button">3일</button>
+                        <button type="button" class="selectOrderDate__date__button">7일</button>
+                        <button type="button" class="selectOrderDate__date__button">15일</button>
+                        <button type="button" class="selectOrderDate__date__button">1개월</button>
+                    </div>
+                    <div class="selectOrderDate__date__box">
+                        <input type= "date" value="2020-10-10" class="selectOrderDate__date__input">
+                        <p class="selectOrderDate__date__hyphen">~</p>
+                        <input type="date" value="2020-10-10" class="selectOrderDate__date__input">
+                    </div>
+                </div>
+
+                <div class="selectOrderDate__columns__column">
+                    <button type="button" class="selectOrderDate__inquiry__button">조회하기</button>
+                    <button type="button" class="selectOrderDate__excel__button">엑셀 다운로드</button>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="settlementInquiry__notice">
+            <p class="settlementInquiry__notice__text">
+                - 지급액 = 판매금액 - 수수료 - 배송료 (판매자 배송비 부담인 경우에만 제함)
+            </p>
+            <p class="settlementInquiry__notice__text">
+                - 구매자가 배송비를 부담한 경우 현금영수증 조회 시 수수료와 차감 배송료 2,500원을 합산한 금액을 거래금액에 입력해주세요.
+            </p>
+        </div>
+
+        <section class="settlementInquiryTable">
+            <div class="settlementInquiryTable__columns">
+
+                <table class="settlementInquiryTable__table">
+                    
+                    <th class="settlementInquiryTable__table__header">주문일</th>
+                    <th class="settlementInquiryTable__table__header">발송일</th>
+                    <th class="settlementInquiryTable__table__header">정산일</th>
+                    <th class="settlementInquiryTable__table__header">주문상품</th>
+                    <th class="settlementInquiryTable__table__header">판매금액</th>
+                    <th class="settlementInquiryTable__table__header">판매금액</th>
+                    <th class="settlementInquiryTable__table__header">배송료</th>
+                    <th class="settlementInquiryTable__table__header">차감배송료</th>
+                    <th class="settlementInquiryTable__table__header">지급액</th>
+                    <th class="settlementInquiryTable__table__header">비고</th>
+
+                    <tr class="settlementInquiryTable__table__line">
+
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">상품명</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">
+                            <button type="button" class="serch__zipCode__button">우편번호 찾기</button>
+                        </td>
+
+                    </tr>
+
+                    <tr class="settlementInquiryTable__table__line">
+
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">상품명</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">
+                            <button type="button" class="serch__zipCode__button">우편번호 찾기</button>
+                        </td>
+
+                    </tr>
+
+                    <tr class="settlementInquiryTable__table__line">
+
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">상품명</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">
+                            <button type="button" class="serch__zipCode__button">우편번호 찾기</button>
+                        </td>
+
+                    </tr>
+
+                    <tr class="settlementInquiryTable__table__line">
+
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">2020-10-10</td>
+                        <td class="settlementInquiryTable__table__row">상품명</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">00,000 원</td>
+                        <td class="settlementInquiryTable__table__row">
+                            <button type="button" class="serch__zipCode__button">우편번호 찾기</button>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+        </section>
+
+
+    </div>
+    
+</body>
+</html>

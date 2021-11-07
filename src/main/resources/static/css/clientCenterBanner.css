@@ -1,0 +1,48 @@
+/* layout */
+@font-face{
+    font-family: 'NanumPenScript';
+    src: url(../fonts/NanumPenScript-Regular.ttf);
+}
+.clientCenterBanner{
+    display: flex;
+    justify-content: center;
+}
+
+.clientCenterBanner__columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1004px;
+    height: 165px;
+    margin-top: 15px;
+    background-image: url('../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.clientCenterBanner__columns__colunn{
+    padding-left: 40px;
+}
+
+.clientCenterBanner__columns__colunn:nth-child(2){
+    margin-top: 19px;
+}
+
+/* style */
+
+.clientCenterBanner__greeting{
+    font-size: 36px;
+    font-family: 'NanumPenScript';
+}
+
+.clientCenterBanner__greeting span{
+    color: #03a9ff;
+}
+
+.clientCenterBanner__text{
+    font-size: 18px;
+    font-family: 'NotoSansKR';
+    color: #767676;
+}

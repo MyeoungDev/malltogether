@@ -1,0 +1,12 @@
+/* layout */
+
+.productDetail__youtube{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.productDetail__youtube__columns{
+    width: 1004px;
+}
+/* style */

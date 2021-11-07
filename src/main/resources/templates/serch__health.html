@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/globalcss.css">
+    <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/topAppBar.css">
+    <link rel="stylesheet" href="./public/css/category.css">
+    <link rel="stylesheet" href="./public/css/enterprise.css">
+    <link rel="stylesheet" href="./public/css/semiFooter.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
+    <link rel="stylesheet" href="./public/css/leftAside.css">
+    <link rel="stylesheet" href="./public/css/rightAside.css">
+
+    <link rel="stylesheet" href="./public/css/serchHead.css">
+    <link rel="stylesheet" href="./public/css/serchCategory.css">
+    <link rel="stylesheet" href="./public/css/reserchBar.css">
+    <link rel="stylesheet" href="./public/css/orderBar.css">
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="./public/css/selectPageNumber.css">
+</head>
+<body>
+    <div id="container">
+
+        <header class="header">
+            <div class="header__columns">
+                <div class="header__columns__column">
+                    <a href="#">
+                        <img src="./public/images/Group 103.png" alt="star" class="bookmarkIcon" width="15px" height="15px">
+                        즐겨찾기
+                    </a>
+                </div>
+                <div class="header__columns__column"><a href="./login.html">로그인</a></div>
+                <div class="header__columns__column"><a href="./membership.html">회원가입</a></div>
+                <div class="header__columns__column"><a href="./orderDelivery.html">주문조회배송</a></div>
+                <div class="header__columns__column"><a href="./shopping__basket.html">장바구니</a></div>
+                <div class="header__columns__column"><a href="./wishList.htmls">마이페이지</a></div>
+                <div class="header__columns__column"><a href="./clientCenter.html">고객센터</a></div>
+            </div>
+        </header>
+
+        <section class="topAppBar">
+            <div class="topAppBar__columns logo">
+                <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="소셜임팩트" class="subLogo">
+                <a href="./index.html"><img src="./public/images/상생Mall.png" alt="상생몰" class="mainLogo"></a>
+            </div>
+            <div class="topAppBar__columns serch">
+                <div class="topAppBar__columns__column">
+                    <select name="serch" id="">
+                        <option value="" selected="selected">전체선택</option>
+                    </select>
+                </div>
+                <div class="topAppBar__columns__column">
+                    <input type="text">
+                </div>
+                <div class="topAppBar__columns__column iconBox">
+                    <a href="#"><img src="./public/images/baseline-search-24px.png" alt="검색" class="serchIcon"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoryBar">
+            <div class="categoryBar__columns">
+                <div class="categoryBar__columns__menu">
+                    <img src="./public/images/ic_menu_24px_2.png" alt="menu">
+                    <p>카테고리</p>
+                </div>
+                <div class="dropdown">
+                    <a href="./serch__health.html">건강/뷰티</a>
+                    <a href="./serch__food.html">식품</a>
+                    <a href="./serch__livingItem.html">생활용품</a>
+                    <a href="./serch__officeItem.html">사무용품</a>
+                    <a href="./serch__culture.html">교육/문화</a>
+                    <a href="./serch__service.html">용역</a>
+                    <a href="./serch__rental.html">렌탈</a>
+                    <a href="./serch__safetyItem.html">안전용품</a>
+                    <a href="./serch__car.html">자동차</a>
+                    <a href="./serch__etc.html">기타</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="serchHead">
+            <div class="serchHead__columns">
+                <p class="serchHead__text">건강/뷰티</p>
+            </div>
+        </section>
+
+        <section class="serchCategory">
+            <div class="serchCategory__columns">
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 1</a>
+                </div>
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 2</a>
+                </div>
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 3</a>
+                </div>
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 4</a>
+                </div>
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 5</a>
+                </div>
+                <div class="serchCategory__columns__column">
+                    <a href="#" class="serchCategory__text">하위 카테고리 6</a>
+                </div>
+            </div>          
+        </section>
+
+        <section class="reserchBar">
+            <div class="reserchBar__columns">
+                <div class="reserchBar__columns__column">
+                    <div class="reserchBar__radioBar">
+                        <p class="reserchBar__text priceCondition">가격대 조건</p>
+                        <input type="radio" class="radioBar__radio" name="priceCondition" checked><span class="reserchBar__text">전체</span>
+                        <input type="radio" class="radioBar__radio" name="priceCondition"><span class="reserchBar__text">1만원 미만</span>
+                        <input type="radio" class="radioBar__radio" name="priceCondition"><span class="reserchBar__text">1~3만원</span>
+                        <input type="radio" class="radioBar__radio" name="priceCondition"><span class="reserchBar__text">3~5만원</span>
+                        <input type="radio" class="radioBar__radio" name="priceCondition"><span class="reserchBar__text">5~7만원</span>
+                        <input type="radio" class="radioBar__radio" name="priceCondition"><span class="reserchBar__text">7만원</span>
+                    </div>
+                    <div class="reserchBar__listSecrch">
+                        <p class="reserchBar__text serchInList">리스트 내 검색</p>
+                        <input type="text" class="reserchBar__listSecrch__input">
+                    </div>
+                </div>
+                <div class="reserchBar__columns__column">
+                    <button class="reserchBar__serchBtn">검색</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="orderBar">
+            <div class="orderBar__columns">
+                <div class="orderBar__columns__column">
+                    <p class="orderBar__productNumber__text">·00개 상품이 검색되었습니다.</p>
+                </div>
+                <div class="orderBar__columns__column">
+                    <div class="orderBar__arrange">
+                        <img src="./public/images/baseline-search-24px_2-squarebox.png" alt="">
+                        <select name="productNumber" id="" class="orderBar__arrange__selectBar">
+                            <option value="20" selected>20개씩</option>
+                            <option value="50">50개씩</option>
+                            <option value="100">100개씩</option>
+                        </select>
+                        <p class="orderBar__arrange__display">진열</p>
+                    </div>
+                    <div class="orderBar__arrange">
+                        <p class="orderBar__arrange__text lowPrice">낮은가격순</p>
+                        <p class="orderBar__arrange__text highPrice">높은가격순</p>
+                        <p class="orderBar__arrange__text popularProduct">판매인기순</p>
+                        <p class="orderBar__arrange__text orderOfName">이름순</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main class="main">
+            <div class="main__columns serchSection">
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/orange-1995056_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name Noto">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2133091_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2481346_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/raspberries-1426859_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__columns">
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/orange-1995056_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name Noto">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2133091_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2481346_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/raspberries-1426859_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__columns">
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/orange-1995056_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name Noto">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2133091_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2481346_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/raspberries-1426859_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__columns">
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/orange-1995056_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name Noto">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2133091_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2481346_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/raspberries-1426859_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__columns">
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/orange-1995056_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name Noto">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2133091_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/lime-2481346_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+                <div class="main__columns__column product">
+                    <div class="main__column__img">
+                        <a href="#"><img src="./public/images/raspberries-1426859_1920.jpg" alt="" class="main__productImg"></a>
+                    </div>
+                    <div class="main__column__text">
+                        <p class="product__name">제품 이름</p>
+                        <p class="product__enterprise">판매업체</p>
+                        <p class="product__price">00,000원</p>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+        <section class="selectPageNumber">
+            <div class="selectPageNumber__columns">
+                <div class="selectPageNumber__columns__column">
+                    <img src="./public/images/icon_left_solid_serchHtmlSection_SelectPageNumberSection.svg" alt="" class="selectPageNumber__img">
+                    <a href="#"><p class="selectPageNumber__text">1</p></a>
+                    <a href="#"><p class="selectPageNumber__text">2</p></a>
+                    <a href="#"><p class="selectPageNumber__text selected__page">3</p></a>
+                    <a href="#"><p class="selectPageNumber__text">4</p></a>
+                    <a href="#"><p class="selectPageNumber__text">5</p></a>
+                    <img src="./public/images/icon_right_solid_serchHtmlSection_SelectPageNumberSection.svg" alt="" class="selectPageNumber__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="enterprise">
+            <div class="enterprise__columns">
+                <div class="enterprise__columns__column">
+                    <a href="#">
+                        <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="" width="182px">
+                    </a>
+                </div>
+                <div class="enterprise__columns__column">
+                    <a href="#">
+                        <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="" width="182px">
+                    </a>
+                </div>
+                <div class="enterprise__columns__column">
+                    <a href="#">
+                        <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="" width="182px">
+                    </a>
+                </div>
+                <div class="enterprise__columns__column">
+                    <a href="#">
+                        <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="" width="182px">
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="semiFooter">
+            <div class="semiFooter__columns">
+                <div class="semiFooter__columns__column">
+                    <div class="semiFooter__text"><a href="#"><p class="mr-left-zero">회사소개</p></a></div>
+                    <div class="semiFooter__text"><a href="#"><p>제휴문의</p></a></div>
+                    <div class="semiFooter__text"><a href="#"><p>개인정보보호정책</p></a></div>
+                    <div class="semiFooter__text"><a href="#"><p>이용약관</p></a></div>
+                </div>
+
+                <div class="semiFooter__columns__column visitant">
+                    <div class="semiFooter__today">
+                        <p>TODAY</p>
+                        <p class="today__visitant">0,000</p>
+                        <p class="semiFooter__sliceBar">/</p>
+                    </div>
+                    <div class="semiFooter__total">
+                        <p>TOTAL</p>
+                        <p class="total__visitant">0,000,000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__columns">
+                <div class="footer__columns__column firstLine">
+                    <div class="footer__text">
+                        <p>상생몰</p>
+                    </div>
+                    <div class="footer__text">
+                        <p>대표: 김이박</p>
+                    </div>
+                    <div class="footer__text">
+                        <p>사업자등록번호: 000-00-00000</p>
+                    </div>
+                    <div class="footer__text">
+                        <p>통신판매신고업: 제0000-0000-00000호</p>
+                    </div>
+                </div>
+
+                <div class="footer__columns__column secondLine">
+                    <div class="footer__text">
+                        <p>서울특별시 마포구 동교로 13길</p>
+                    </div>
+                    <div class="footer__text">
+                        <p>개인정보취급관리자: 김이박</p>
+                    </div>
+                    <div class="footer__text">
+                        <p>고객상담: 1666-1666</p>
+                    </div>
+                </div>
+
+                <div class="footer__columns__column thirdLine">
+                    <div class="footer__text">
+                        <p>Copyright@2020 sum.All rights Reserved.</p>
+                    </div>
+                    <div class="footer__confirm">
+                        <a href="#">사업자정보확인</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <aside class="leftAside serchSection">
+            <div class="leftAside__columns">
+                <div class="leftAside__columns__column">
+                    <a href="#">
+                    <div class="leftAside__icon"><img src="./public/images/baseline-search-24px_2.png" alt=""></div>
+                    <div class="leftAside__text"><p>1:1 문의</p></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="leftAside__columns">
+                <div class="leftAside__columns__column">
+                    <a href="#">
+                    <div class="leftAside__icon"><img src="./public/images/baseline-search-24px_3.png" alt=""></div>
+                    <div class="leftAside__text"><p>입점문의</p></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="leftAside__columns">
+                <div class="leftAside__columns__column">
+                    <a href="#">
+                    <div class="leftAside__icon"><img src="./public/images/baseline-search-24px_4.png" alt=""></div>
+                    <div class="leftAside__text"><p>공지사항</p></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="leftAside__columns">
+                <div class="leftAside__columns__column">
+                    <a href="#">
+                    <div class="leftAside__icon"><img src="./public/images/baseline-search-24px_5.png" alt=""></div>
+                    <div class="leftAside__text"><p>이용안내</p></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="leftAside__columns">
+                <div class="leftAside__columns__column">
+                    <a href="#">
+                    <div class="leftAside__icon"><img src="./public/images/baseline-search-24px_6.png" alt=""></div>
+                    <div class="leftAside__text"><p>입점기업정보</p></div>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <aside class="rightAside serchSection">
+            <div class="rightAside__columns">
+                <div class="rightAside__columns__column textBox">
+                    <div class="rightAside__headText">
+                        <p>최근 본 상품</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightAside__columns border">
+                <div class="rightAside__columns__column">
+                    <div class="rightAside__img">
+                        <img src="./public/images/thom-bradley-Jr-uu7X9dlE-unsplash.jpg" alt="">
+                    </div>
+                    <div class="rightAside__img">
+                        <img src="./public/images/thom-bradley-Jr-uu7X9dlE-unsplash.jpg" alt="">
+                    </div>
+                    <div class="rightAside__img">
+                        <img src="./public/images/thom-bradley-Jr-uu7X9dlE-unsplash.jpg" alt="">
+                    </div>
+                    <!-- <div class="rightAside__img">
+                        <img src="./public/images/thom-bradley-Jr-uu7X9dlE-unsplash.jpg" alt="">
+                    </div>
+                    <div class="rightAside__img">
+                        <img src="./public/images/thom-bradley-Jr-uu7X9dlE-unsplash.jpg" alt="">
+                    </div> -->
+                </div>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <script src="./public/js/category.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+/* layout */
+
+.sellerPageReturn__middleBar{
+    display: flex;
+    flex-direction: column;
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.sellerPageReturn__middleBar__columns{
+    display: flex;
+}
+
+.sellerPageReturn__middleBar__columns:first-child{
+    padding-bottom: 10px;
+    border-bottom: solid 1px #bababa;
+    margin-bottom: 15px;
+}
+
+.sellerPageReturn__middleBar__columns:nth-child(2){
+    justify-content: flex-end;
+}
+
+/* style */
+
+.sellerPageReturn__middleBar__text{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #444444;
+}
+
+.sellerPageReturn__middleBar__text:first-child{
+    margin-right: 10px;
+}
+
+.sellerPageReturn__middleBar__button{
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #c8c6c7;
+    outline: none;
+    font-size: 10px;
+    font-family: 'NotoSansKR-Regular';
+    width: 72px;
+    height: 22px;
+    outline: none;
+}
+
+.sellerPageReturn__middleBar__button:last-child{
+    margin-left: 4px;
+    width: 46px;
+}

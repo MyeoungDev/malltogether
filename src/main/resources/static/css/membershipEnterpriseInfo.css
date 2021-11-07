@@ -1,0 +1,45 @@
+/* layout */
+
+.membershipEnterpriseInfo{
+    width: 834px;
+    height: 203px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.membershipEnterpriseInfo__columns__column{
+    width: 734px;
+}
+
+.membershipEnterpriseInfo__columns__column:first-child{
+    border-bottom: solid 1px #c8c6c7;
+    padding-bottom: 20px;
+}
+/* style */
+
+.membershipEnterpriseInfo__circle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #03a9ff;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.membershipEnterpriseInfo__enterprise{
+    font-size: 18px;
+    font-family: 'NotoSansKR';
+    font-weight: bold;
+    color: #27303f;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.membershipEnterpriseInfo__enterprise__info{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Light';
+    color: #767676;
+}

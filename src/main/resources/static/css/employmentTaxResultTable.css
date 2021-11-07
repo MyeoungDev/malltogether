@@ -1,0 +1,41 @@
+/* layout */
+
+.employmentTaxResultTable{
+    display: flex;
+    justify-content: center;
+}
+
+.employmentTaxResultTable__columns{
+    width: 1004px;
+    border-top: solid 2px #03a9ff;
+}
+
+.employmentTaxResultTable__table__line{
+    border-bottom: solid 1px #c8c6c7;
+}
+
+.employmentTaxResultTable__table__row{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.employmentTaxResultTable__table__row:first-child{
+    width: 258px;
+    border-right: solid 1px #c8c6c7;
+    background-color: #fafafa;
+    padding-left: 30px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #27303f;
+}
+
+.employmentTaxResultTable__table__row:nth-child(2){
+    width: 745px;
+    padding-left: 16px;
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #707070;
+}
+
+
+/* style */

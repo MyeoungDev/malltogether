@@ -1,0 +1,112 @@
+/* explainText */
+
+.saleManagement__explainText{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.saleManagement__explainText__columns{
+    display: flex;
+    width: 1004px;
+    border-bottom: solid 1px #bababa;
+    padding-bottom: 10px;
+}
+
+.saleManagement__explainText__columns p{
+    font-size: 12px;
+    font-family: 'NotoSansKR';
+    color: #444444;
+}
+
+.saleManagement__explainText__columns p:first-child{
+    margin-right: 10px;
+}
+
+/* button */
+
+.saleManagement__topTable__button{
+    width: 1004px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.table__top__button{
+    font-size: 10px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+    background-color: #ffffff;
+    border: solid 1px #c8c6c7;
+}
+
+/* table */
+
+.saleManagementTable{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.saleManagementTable__columns{
+    width: 1004px;
+}
+
+.saleManagementTable__table{
+    width: 1004px;
+    border-top: solid 2px #039aff;
+}
+
+.saleManagementTable__table__row.space5{
+    width: 306px;
+}
+
+.saleManagementTable__table__row.space8{
+    width: 70px;
+}
+.saleManagementTable__table__row.space9{
+    width: 110px;
+}
+.saleManagementTable__table__row.space10{
+    width: 120px;
+}
+
+.saleManagementTable__table__line.table__header{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #27303f;
+    background-color: #f5f5f5;
+}
+
+.saleManagementTable__table__line{
+    font-size: 12px;
+    font-family: 'NotoSansKR-Regular';
+    color: #707070;
+}
+
+.saleManagementTable__table__row{
+    height: 39px;
+    border-bottom: solid 1px #bababa;
+    border-right: solid 1px #bababa;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.document__dvidence{
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.delivery__work{
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table__checkBox, .table__header__checkBox{
+    width: 13px;
+    height: 13px;
+}
