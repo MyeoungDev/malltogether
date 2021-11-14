@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./public/css/reset.css">
-    <link rel="stylesheet" href="./public/css/globalcss.css">
-    <link rel="stylesheet" href="./public/css/header.css">
-    <link rel="stylesheet" href="./public/css/topAppBar.css">
-    <link rel="stylesheet" href="./public/css/category.css">
-    <link rel="stylesheet" href="./public/css/enterprise.css">
-    <link rel="stylesheet" href="./public/css/semiFooter.css">
-    <link rel="stylesheet" href="./public/css/footer.css">
-    <link rel="stylesheet" href="./public/css/leftAside.css">
-    <link rel="stylesheet" href="./public/css/rightAside.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/globalcss.css">
+    <link rel="stylesheet" href="css/topAppBar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/enterprise.css">
+    <link rel="stylesheet" href="css/semiFooter.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/leftAside.css">
+    <link rel="stylesheet" href="css/rightAside.css">
 
-    <link rel="stylesheet" href="./public/css/myPageCategoryBar.css">
-    <link rel="stylesheet" href="./public/css/myPageHeadText.css">
-    <link rel="stylesheet" href="./public/css/changeInformationTable.css">
-    <link rel="stylesheet" href="./public/css/changeInformationButton.css">
+    <link rel="stylesheet" href="css/myPageCategoryBar.css">
+    <link rel="stylesheet" href="css/myPageHeadText.css">
+    <link rel="stylesheet" href="css/changeInformationTable.css">
+    <link rel="stylesheet" href="css/changeInformationButton.css">
 
 </head>
 <body>
@@ -28,11 +28,11 @@
             <div class="header__columns">
                 <div class="header__columns__column">
                     <a href="#">
-                        <img src="./public/images/Group 103.png" alt="star" class="bookmarkIcon" width="15px" height="15px">
+                        <img src="images/Group 103.png" alt="star" class="bookmarkIcon" width="15px" height="15px">
                         즐겨찾기
                     </a>
                 </div>
-                <div class="header__columns__column"><a href="./login.html">로그인</a></div>
+                <div class="header__columns__column"><a href="login">로그인</a></div>
                 <div class="header__columns__column"><a href="./membership.html">회원가입</a></div>
                 <div class="header__columns__column"><a href="./orderDelivery.html">주문조회배송</a></div>
                 <div class="header__columns__column"><a href="./shopping__basket.html">장바구니</a></div>
@@ -43,8 +43,8 @@
 
         <section class="topAppBar">
             <div class="topAppBar__columns logo">
-                <img src="./public/images/KakaoTalk_20201102_194331292.png" alt="소셜임팩트" class="subLogo">
-                <a href="./index.html"><img src="./public/images/상생Mall.png" alt="상생몰" class="mainLogo"></a>
+                <img src="images/KakaoTalk_20201102_194331292.png" alt="소셜임팩트" class="subLogo">
+                <a href="index"><img src="images/상생Mall.png" alt="상생몰" class="mainLogo"></a>
             </div>
             <div class="topAppBar__columns serch">
                 <div class="topAppBar__columns__column">
@@ -56,7 +56,7 @@
                     <input type="text">
                 </div>
                 <div class="topAppBar__columns__column iconBox">
-                    <a href="#"><img src="./public/images/baseline-search-24px.png" alt="검색" class="serchIcon"></a>
+                    <a href="#"><img src="images/baseline-search-24px.png" alt="검색" class="serchIcon"></a>
                 </div>
             </div>
         </section>
@@ -64,7 +64,7 @@
         <section class="categoryBar">
             <div class="categoryBar__columns">
                 <div class="categoryBar__columns__menu">
-                    <img src="./public/images/ic_menu_24px_2.png" alt="menu">
+                    <img src="images/ic_menu_24px_2.png" alt="menu">
                     <p>카테고리</p>
                 </div>
                 <div class="dropdown">
@@ -90,97 +90,74 @@
             </div>
         </section>
 
+        <form action="/join/new" method="post">
         <section class="changeInformationTable">
             <div class="changeInformationTable__columns">
                 <table class="changeInformationTable__table">
-                    
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">이름</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__name"></td>
-                    </tr>
+<!--                    -->
+<!--                    <tr class="changeInformation__table__line">-->
+<!--                        <td class="changeInformation__table__row">이름</td>-->
+<!--                        <td class="changeInformation__table__row">-->
+<!--                            <input type="text" class="changeInformation__input__name" name="userName">-->
+<!--                        </td>-->
+<!--                    </tr>-->
 
                     <tr class="changeInformation__table__line">
                         <td class="changeInformation__table__row">아이디</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__id"></td>
+                        <td class="changeInformation__table__row">
+                            <input type="text" class="changeInformation__input__id" name="userName">
+                        </td>
                     </tr>
 
                     <tr class="changeInformation__table__line">
                         <td class="changeInformation__table__row">비밀번호</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__password"></td>
+                        <td class="changeInformation__table__row">
+                            <input type="text" class="changeInformation__input__password" name="password">
+                        </td>
                     </tr>
 
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">비밀번호 확인</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__password"></td>
-                    </tr>
+<!--                    <tr class="changeInformation__table__line">-->
+<!--                        <td class="changeInformation__table__row">비밀번호 확인</td>-->
+<!--                        <td class="changeInformation__table__row">-->
+<!--                            <input type="text" class="changeInformation__input__password" name="userPassword2">-->
+<!--                        </td>-->
+<!--                    </tr>-->
 
                     <tr class="changeInformation__table__line">
                         <td class="changeInformation__table__row">E-mail</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__email"></td>
+                        <td class="changeInformation__table__row">
+                            <input type="text" class="changeInformation__input__email" name="email">
+                        </td>
                     </tr>
 
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">전화번호</td>
-                        <td class="changeInformation__table__row">
-                            <input type="text" class="changeInformation__input__phoneNumber">
-                            <span class="changeInformation__hyphen">-</span>
-                            <input type="text" class="changeInformation__input__phoneNumber">
-                            <span class="changeInformation__hyphen">-</span>
-                            <input type="text" class="changeInformation__input__phoneNumber">
-                        </td>
-                    </tr>
-                    
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">휴대폰번호</td>
-                        <td class="changeInformation__table__row">
-                            <input type="text" class="changeInformation__input__cellPhoneNumber">
-                            <span class="changeInformation__hyphen">-</span>
-                            <input type="text" class="changeInformation__input__cellPhoneNumber">
-                            <span class="changeInformation__hyphen">-</span>
-                            <input type="text" class="changeInformation__input__cellPhoneNumber">
-                        </td>
-                    </tr>
-                    
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">팩스번호</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__faxNumber"></td>
-                    </tr>
-                    
+<!--                    <tr class="changeInformation__table__line">-->
+<!--                        <td class="changeInformation__table__row">휴대폰번호</td>-->
+<!--                        <td class="changeInformation__table__row">-->
+<!--                            <input type="text" class="changeInformation__input__cellPhoneNumber" value="010">-->
+<!--                            <span class="changeInformation__hyphen">-</span>-->
+<!--                            <input type="text" class="changeInformation__input__cellPhoneNumber" name="userPhoneNumber">-->
+<!--                            <span class="changeInformation__hyphen">-</span>-->
+<!--                            <input type="text" class="changeInformation__input__cellPhoneNumber" name="userPhoneNumber">-->
+<!--                        </td>-->
+<!--                    </tr>-->
+
                     <tr class="changeInformation__table__line">
                         <td class="changeInformation__table__row">우편번호</td>
                         <td class="changeInformation__table__row">
-                            <input type="text" class="changeInformation__input__zipCode">
-                            <button type="button" class="zipCode__serchButton">우편번호 찾기</button>
+                            <input type="text" class="changeInformation__input__zipCode" name="zipcode">
+<!--                            <button type="button" class="zipCode__serchButton">우편번호 찾기</button>-->
                         </td>
                     </tr>
                     
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">주소</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__address"></td>
-                    </tr>
-                    
+<!--                    <tr class="changeInformation__table__line">-->
+<!--                        <td class="changeInformation__table__row">주소</td>-->
+<!--                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__address"></td>-->
+<!--                    </tr>-->
+<!--                    -->
                     <tr class="changeInformation__table__line">
                         <td class="changeInformation__table__row">상세주소</td>
-                        <td class="changeInformation__table__row"><input type="text" class="changeInformation__input__address"></td>
-                    </tr>
-                    
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">SMS 서비스</td>
-                        <td class="changeInformation__table__row SMS">
-                            <span class="changeInformation__SMS__text">고객님의 주문정보와 관련된 SMS를 수신하시겠습니까?</span>
-                            <input type="radio" class="changeInformation__input__SMS" name="SMS" checked><span class="SMS__reception">수신</span>
-                            <input type="radio" class="changeInformation__input__SMS" name="SMS"><span class="SMS__noneReception">비수신</span>
-                        </td>
-                    </tr>
-                    
-                    <tr class="changeInformation__table__line">
-                        <td class="changeInformation__table__row">뉴스레터 수신</td>
-                        <td class="changeInformation__table__row newsLetter">
-                            <span class="changeInformation__newsLetter__text">고객님의 주문정보와 뉴스레터를 수신하시겠습니까?</span>
-                            <input type="radio" class="changeInformation__input__newsLetter" name="newsLetter" checked>
-                            <span class="newsLetter__reception">수신</span>
-                            <input type="radio" class="changeInformation__input__newsLetter" name="newsLetter">
-                            <span class="newsLetter__noneReception">비수신</span>
+                        <td class="changeInformation__table__row">
+                            <input type="text" class="changeInformation__input__address" name="address">
                         </td>
                     </tr>
 
@@ -191,10 +168,12 @@
         <section class="changeInformationButton">
             <div class="changeInformationButton__columns">
                 <div class="changeInformationButton__columns__column">
-                    <button type="button" class="changeInformationButton__button">회원가입</button>
+                    <button type="submit" class="changeInformationButton__button">회원가입</button>
                 </div>
             </div>
         </section>
+        </form>
+
 
         <section class="enterprise">
             <div class="enterprise__columns">
